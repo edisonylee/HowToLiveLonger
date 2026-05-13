@@ -1,295 +1,352 @@
-# A Programmer's Guide to Living Longer
+# How to Live Longer — A guide for active US adults
 
-[![EN doc](https://img.shields.io/badge/document-English-blue.svg)](README.md)
-[![CN doc](https://img.shields.io/badge/文档-中文版-blue.svg)](README_zh.md)
 [![MetaGPT](https://img.shields.io/badge/Work%20Less-MetaGPT-blue)](https://github.com/geekan/MetaGPT)
 
-A practical, evidence-based summary of what the research literature says actually moves the needle on **All-Cause Mortality (ACM)** — the probability of dying from any cause over a given period. The goal: live longer, with high confidence, by stacking interventions that each have peer-reviewed support.
+An evidence-based summary of the interventions that actually move **all-cause mortality (ACM)** — the probability of dying from any cause in a given period. ACM is the metric academic studies care most about because it can't be gamed by shifting deaths between disease categories.
 
-> **Note on this translation:** This guide originated in Chinese. Many of the source links point to Chinese-language news articles, blog posts, or Q&A sites (Zhihu, Sohu, etc.) that summarize underlying peer-reviewed studies. Wherever possible, the **primary academic source** is also linked — that's the one you want if you read the literature directly. The Chinese-language commentary links are kept for completeness but are not required reading.
+**Who this is for.** US adults, especially in their 20s and 30s, who play sports, lift weights, or otherwise take training seriously. The lens is **longevity-first, athletic-aware**: the goal is more years on the clock, but every recommendation should be compatible with — and ideally complementary to — being a stronger, faster, more durable athlete.
+
+**What's different about this guide.** Most longevity content (including the [original Chinese-language guide](https://github.com/geekan/HowToLiveLonger) this is forked from) is calibrated for middle-aged readers. That makes it light on the things that matter most in your 20s and 30s — cardiorespiratory fitness, resistance training, social connection, injury prevention — and heavy on things that don't yet (metformin, weight loss from obesity, age-72+ housework). This version reorders the priorities, swaps in US-relevant evidence, and adds the sections most missing from the original.
 
 ---
 
 - [1. Glossary](#1-glossary)
-- [2. Goals](#2-goals)
-- [3. Key Results](#3-key-results)
-- [4. How to read the evidence](#4-how-to-read-the-evidence)
-- [5. The action list (TL;DR)](#5-the-action-list-tldr)
-- [6. Evidence](#6-evidence)
-  - [6.1. Inputs (what goes in)](#61-inputs-what-goes-in)
-    - [6.1.1. Solids (food)](#611-solids-food)
-    - [6.1.2. Liquids (drinks)](#612-liquids-drinks)
-    - [6.1.3. Gases (smoking)](#613-gases-smoking)
-    - [6.1.4. Sunlight](#614-sunlight)
-    - [6.1.5. Drugs and supplements](#615-drugs-and-supplements)
-  - [6.2. Outputs (what you do)](#62-outputs-what-you-do)
-    - [6.2.1. Racquet sports](#621-racquet-sports)
-    - [6.2.2. Vigorous exercise](#622-vigorous-exercise)
-    - [6.2.3. Walking](#623-walking)
-    - [6.2.4. Brushing your teeth](#624-brushing-your-teeth)
-    - [6.2.5. Bathing](#625-bathing)
-    - [6.2.6. Housework (for older men)](#626-housework-for-older-men)
-    - [6.2.7. Sleep](#627-sleep)
-    - [6.2.8. Prolonged sitting](#628-prolonged-sitting)
-  - [6.3. Context (who you are)](#63-context-who-you-are)
-    - [6.3.1. Mood](#631-mood)
-    - [6.3.2. Wealth](#632-wealth)
-    - [6.3.3. Body weight](#633-body-weight)
-    - [6.3.4. COVID-19](#634-covid-19)
+- [2. Goals and key results](#2-goals-and-key-results)
+- [3. How to read the evidence](#3-how-to-read-the-evidence)
+- [4. The action list (TL;DR)](#4-the-action-list-tldr)
+- [5. Foundations (the biggest levers)](#5-foundations-the-biggest-levers)
+  - [5.1. Cardiorespiratory fitness](#51-cardiorespiratory-fitness-vo2max)
+  - [5.2. Resistance training](#52-resistance-training)
+  - [5.3. Sleep](#53-sleep)
+  - [5.4. Don't smoke or vape](#54-dont-smoke-or-vape)
+  - [5.5. Social connection](#55-social-connection)
+- [6. Diet in the US food environment](#6-diet-in-the-us-food-environment)
+- [7. Supplements worth considering (and what to skip)](#7-supplements-worth-considering-and-what-to-skip)
+- [8. Sport-specific injury prevention](#8-sport-specific-injury-prevention)
+- [9. Recovery and daily habits](#9-recovery-and-daily-habits)
+- [10. Mental health and social connection](#10-mental-health-and-social-connection)
+- [11. What we de-prioritized from the original guide](#11-what-we-de-prioritized-from-the-original-guide)
+- [12. Things you can't change much (but should know)](#12-things-you-cant-change-much-but-should-know)
 
 ---
 
 ### 1. Glossary
 
-* **ACM** — *All-Cause Mortality.* The risk of dying from any cause in a given window. Researchers like this metric because it can't be gamed by shifting deaths between categories (e.g., a diet that "prevents heart disease" but causes equivalent cancer deaths shows no ACM benefit).
-* **HR** — *Hazard Ratio.* Roughly: "how much more likely is the exposed group to die than the control group." HR = 1.10 means 10% higher risk.
-* **CI** — *Confidence Interval.* The range the true effect probably falls within. A 95% CI of 1.04–1.17 means we're 95% confident the real hazard ratio is somewhere between 1.04× and 1.17×.
-* **RR** — *Relative Risk.* Similar interpretation to HR for our purposes.
-* **CVD** — *Cardiovascular Disease.*
-* **CR** — *Caloric Restriction.*
-
-### 2. Goals
-
-* Live longer, reliably.
-* Spend less time working — see [MetaGPT](https://github.com/geekan/MetaGPT).
-
-### 3. Key Results
-
-* Reduce ACM by roughly **66.67%** by stacking the interventions below.
-* Add roughly **~20 years** of life expectancy.
-* ~~Keep dopamine on the median axis.~~
-
-### 4. How to read the evidence
-
-A few caveats to keep in mind throughout this document:
-
-* **ACM is the main reference metric** because the academic literature is rich, comparable across studies, and harder to game than disease-specific endpoints.
-* **The mapping from ΔACM to ΔLifespan is nonlinear.** A rough working formula: `ΔLifeSpan = (1 / (1 + ΔACM) − 1) × 10`. Improvements welcome.
-* **Effects do not stack additively.** The variables here are not independent — diet, sleep, exercise, and weight all influence each other, and combining a −20% intervention with a −20% intervention rarely yields a clean −36%.
-* **The literature contradicts itself in places.** Some claims have conflicting findings (e.g., the optimal carbohydrate ratio). Some are contested (e.g., one paper claims sleeping before 10 PM raises ACM by 43%, which is not a consensus view).
-* **Correlation, not causation.** Most of these are observational studies. When a paper says "people who walk 7,000+ steps/day die less often," remember that healthier people are often *able* to walk more — the arrow of causality isn't always what the headline implies. Read with skepticism, but the overall direction across many studies is usually trustworthy.
-
-### 5. The action list (TL;DR)
-
-If you only read one section, read this one.
-
-* **Inputs**
-  * **Solids:** Eat more white meat (poultry, fish): −11% to −3% ACM. Eat lots of vegetables and fruit: −26% to −17% ACM. Eat spicy food: −23% ACM. Eat nuts: −27% to −4% ACM. Moderate carbohydrate intake; more plant-based protein: −10% ACM. Avoid ultra-processed foods: a high vs. low intake difference of −62% to −18%.
-  * **Liquids:** Drink coffee (−22% to −12% ACM), milk (−17% to −10% ACM), and tea (−15% to −8% ACM). Cut sugar-sweetened or artificially-sweetened drinks (each daily serving = +7% ACM, plus the dopamine hit). Quit alcohol — heavy drinking adds ~50%+ ACM with no clear upper bound.
-  * **Gases:** Don't smoke — smoking adds ~50% ACM and costs 11–12 years of life.
-  * **Sunlight:** Get sun exposure: −~40% ACM.
-  * **Drugs/supplements:** Metformin (adds ~3 years for diabetics vs. non-diabetics); multivitamins (−8% cancer risk); spermidine (−60% to −30% ACM); glucosamine (−39% ACM).
-* **Outputs**
-  * **Exercise:** Racquet sports, 3× per week, 45 minutes (−47% ACM).
-  * **Hygiene:** Brush your teeth regularly (−25% ACM).
-  * **Sleep:** ~7 hours/night is the ACM minimum. Bedtime between 10 PM and midnight is best (controversial claim: too early = +43% ACM; too late = +15% ACM).
-* **Context**
-  * **Weight:** Lose weight if overweight (−54% ACM).
-
-### 6. Evidence
-
-#### 6.1. Inputs (what goes in)
-
-##### 6.1.1. Solids (food)
-
-* **White meat (poultry, fish)**
-  * Source: [Associations of Processed Meat, Unprocessed Red Meat, Poultry, or Fish Intake With Incident Cardiovascular Disease and All-Cause Mortality](https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2759737/jamainternal_zhong_2020_oi_190112.pdf) (JAMA Internal Medicine).
-  * Increasing red-meat intake by even half a serving per day (≈14 g processed or 40 g unprocessed) over 8 years was associated with a **10% higher ACM** (HR 1.10, 95% CI 1.04–1.17) over the following 8 years. Two weekly servings of red or processed meat (but not poultry or fish) raised ACM by 3%.
-  * ![Red meat](https://user-images.githubusercontent.com/2707039/163703960-6f321de5-4daa-4ea5-95b9-af9c96f1c1bc.jpg)
-
-* **Vegetables and fruit**
-  * Source: [Estimated Global, Regional, and National Cardiovascular Disease Burdens Related to Fruit and Vegetable Consumption (Global Dietary Database)](https://academic.oup.com/cdn/article-abstract/3/Supplement_1/nzz028.FS01-01-19/5516583).
-  * 200 g of fresh fruit per day → **−17% mortality**, −13% risk of major diabetes complications (stroke, ischemic heart disease), −28% risk of small-vessel diabetes complications (kidney, eye, foot disease).
-  * Source: [Flavonoid intake is associated with lower mortality in the Danish Diet Cancer and Health Cohort](https://www.nature.com/articles/s41467-019-11622-x) (Nature Communications). Over 23 years and ~60,000 people, eating flavonoid-rich foods was associated with **−20% mortality**.
-  * ![Flavonoids](https://user-images.githubusercontent.com/2707039/163703969-42e64f88-e727-4e7d-85f2-07a92e29b613.jpg)
-  * Practical: a cup of tea, an apple, an orange, 100 g of blueberries, or 100 g of broccoli each provide >500 mg of mixed flavonoids.
-
-* **Chili peppers**
-  * Sources: [Chili pepper consumption and mortality in Italian adults](https://www.sciencedirect.com/science/article/pii/S0735109719382063) and [The Association of Hot Red Chili Pepper Consumption and Mortality](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169876) (PLOS ONE, 2017).
-  * The US study followed 16,179 adults for 19 years. Among 4,946 deaths: people who ate chili had an ACM of 21.6%; non-eaters, 33.6%. Eating spicy food more than 4 times/week (vs. rarely) was associated with **−23% ACM** and **−34% cardiovascular mortality**.
-
-* **Eggs**
-  * Source: [Egg and cholesterol consumption and mortality from cardiovascular and different causes in the United States](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7872242/) (NIH-AARP cohort).
-  * Each additional half-egg per day was associated with **+7% ACM and +7% cardiovascular mortality**. In substitution analyses, replacing half an egg (25 g/day) with egg whites/substitutes, poultry, fish, dairy, nuts, or legumes lowered ACM by 6%, 8%, 9%, 7%, 13%, and 10% respectively.
-
-* **Nuts**
-  * Source: [Association of Walnut Consumption with Total and Cause-Specific Mortality and Life Expectancy in US Adults](https://www.mdpi.com/2072-6643/13/8/2699/pdf). Vs. never eating walnuts, 5+ servings/week (1 serving = 28 g) → **+1.3 years of healthy life expectancy, −14% ACM, −25% CVD mortality.**
-  * Source: [Association of nut consumption with total and cause-specific mortality](https://www.nejm.org/doi/full/10.1056/NEJMoa1307352) (NEJM). Dose-response: <1 oz/week of tree nuts → −7%; 1 oz/week → −11%; 2 servings → −13%; 5–6 → −15%; 7+ → **−20% mortality**.
-  * Two further studies (PLOS, BMC) of 7,216 subjects found 3+ servings/week of nuts (incl. pistachios) → **−39% mortality**.
-
-* **Sodium (highly contested)**
-  * Source: [Sodium intake, life expectancy, and all-cause mortality](https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC8169157&blobtype=pdf) (Messerli et al., Eur Heart J, 2021).
-  * Across 181 countries: higher sodium intake correlated **positively** with healthy life expectancy at birth (β = 2.6 yr per g/day, R² = 0.66, p < 0.001) and at age 60 (β = 0.3 yr per g/day). It correlated **negatively** with ACM (β = −131 events per g/day, R² = 0.60, p < 0.001). In the 46 highest-income countries, the relationship held.
-  * ![Sodium](https://user-images.githubusercontent.com/2707039/164894778-9710f18d-e055-4f62-bdcb-618687771d77.jpeg)
-  * Commentary: [A Fresh Foray in the Salt Wars](https://www.tctmd.com/news/fresh-foray-salt-wars-life-expectancy-higher-greater-sodium-intake).
-  * **The other side:** several large studies (NEJM, Lancet) find that switching to low-sodium salt reduces cardiovascular and overall mortality, particularly in populations with high sodium baseline like China. The honest summary: there is no strong consensus; if you have normal blood pressure and eat a varied diet, don't obsess about salt.
-
-* **Carbohydrates (highly contested)**
-  * Source: [Dietary carbohydrate intake and mortality: a prospective cohort study and meta-analysis](https://www.sciencedirect.com/science/article/pii/S246826671830135X) (The Lancet Public Health).
-  * U-shaped curve: very low carb → shorter lifespan; very high carb → mildly shorter lifespan; **~50% of calories from carbs is the longevity sweet spot**.
-  * ![Carbs](https://user-images.githubusercontent.com/2707039/163703985-a2e2f8ac-101a-4f3c-903b-6850507f144b.jpg)
-
-* **Betel nut (areca nut)**
-  * *Cultural note: Betel nut is a stimulant nut chewed widely in parts of South and Southeast Asia and southern China — comparable in social role to tobacco. Probably not relevant to most Western readers, but included for completeness.*
-  * Source: [Chewing Betel Quid and the Risk of Metabolic Disease, Cardiovascular Disease, and All-Cause Mortality: A Meta-Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0070679). Betel chewing → **+21% ACM**.
-
-* **Caloric restriction**
-  * Animal evidence: rhesus macaques on long-term caloric restriction had delayed disease onset and lower mortality. Compared to CR animals, ad-lib-fed monkeys had **2.9× the disease incidence and 3.0× the mortality**.
-  * ![Caloric restriction in macaques](https://user-images.githubusercontent.com/2707039/163703988-8767185b-326a-4783-b2e2-f190322bb7d6.jpg)
-
-* **Overall dietary composition**
-  * Source: [Associations of fat and carbohydrate intake with cardiovascular disease and mortality (UK Biobank)](https://doi.org/10.1136/bmj.m688). Carbs and protein have nonlinear relationships with ACM; fat has a linear one. Higher sugar intake → higher ACM and CVD risk. Higher saturated-fat intake → higher ACM.
-  * ![Nutrients vs ACM](https://user-images.githubusercontent.com/2707039/163702022-8c2bfea9-ed5d-4fe0-8ead-e8740014b92b.jpg)
-  * ![Nutrients vs CVD](https://user-images.githubusercontent.com/2707039/163702084-97fb4a03-707c-475d-b88e-6fe2f8e87f92.jpg)
-  * **Lowest-ACM diet pattern: 10–30 g fiber, 14–30% calories from protein, 10–25% monounsaturated fat, 5–7% polyunsaturated fat, 20–30% starch.**
-  * **Optimal energy mix: <24% starch, 15–17% protein, >15% monounsaturated fat, <15% sugar, 6% saturated fat, 6% polyunsaturated fat, 30+ g fiber.**
-  * Source: [Ultra-processed food consumption and ACM (SUN cohort)](https://www.bmj.com/content/365/bmj.l1949.full) (BMJ). Diets high in ultra-processed foods (chips, fast food, candy, sweetened cereals) → much higher mortality; in the heaviest-consuming group, mean age at death was 58.
-
-##### 6.1.2. Liquids (drinks)
-
-* **Milk / dairy**
-  * Source: [Association of dairy intake with cardiovascular disease and mortality (PURE study)](http://mdrf-eprints.in/1114/1/Association_of_dietary_patterns_and_dietary_diversity_with_cardiometabolic_disease_risk_factors.pdf) — The Lancet, 21 countries, ~130,000 people.
-  * Two servings of dairy per day (1 serving = 244 g milk or yogurt, 15 g cheese, or 5 g butter) vs. none → **−17% ACM, −23% CVD mortality, −33% stroke risk.**
-
-* **Tea**
-  * Source: [Tea consumption and the risk of atherosclerotic cardiovascular disease and all-cause mortality: The China-PAR project](https://www.researchgate.net/profile/Fangchao-Liu-4/publication/338483323_Tea_consumption_and_the_risk_of_atherosclerotic_cardiovascular_disease_and_all-cause_mortality_The_China-PAR_project).
-  * 100,000 Chinese adults, 7-year follow-up: drinking tea ≥3×/week was associated with **−15% ACM** and **+1.26 years** of life expectancy.
-  * A larger 438,443-person, 11.1-year follow-up: vs. never-drinkers, occasional and daily drinkers had ACM HRs of 0.89 and 0.92. The protective effect was stronger in men.
-
-* **Artificially-sweetened ("diet") drinks**
-  * Source: [Association Between Soft Drink Consumption and Mortality in 10 European Countries](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2749350) (JAMA Internal Medicine).
-  * Vs. <1 soft drink/month: ≥1 mixed soft drinks/day → **+18% ACM**. Sugar-sweetened ones: **+11%**. Artificially-sweetened ones: **+27%**. (Diet soda is *worse* than regular soda by ACM here.)
-  * ![Beverages](https://user-images.githubusercontent.com/2707039/163704346-e7d92e7f-eba5-4673-8f15-3a96782c2e32.png)
-
-* **Sugar-sweetened drinks**
-  * 34-year follow-up: vs. ≤1 sugary drink/month, drinking 2/day → **+21% ACM**, **+31% CVD mortality**, **+16% cancer mortality**. Each additional daily sugary drink: +7% ACM, +10% CVD, +16% cancer mortality.
-  * BMJ paper on sugary drinks and cancer: 18% higher overall cancer risk; even 100% fruit juice raised cancer risk by 12%.
-
-* **Fruit juice**
-  * Source: JAMA sub-journal. An additional daily 12 oz of sugary soda → **+11% ACM**. An additional daily 12 oz of fruit juice → **+24% ACM** — meaning 100% juice was *worse* than sugary soda in this dataset.
-
-* **Coffee**
-  * Source: [Coffee consumption and mortality in Mediterranean adults](https://fanyi.pdf365.cn/help/249).
-  * Meta-analysis of 40 studies, ~3.85 million people. Non-linear dose-response:
-    * 2 cups/day → lowest cancer mortality (RR 0.96)
-    * 2.5 cups/day → lowest CVD mortality (RR 0.83)
-    * **3.5 cups/day → lowest ACM (RR 0.85)**
-    * Past 3.5 cups, no further reduction.
-
-* **Spermidine** (also dietary — see [§6.1.5](#615-drugs-and-supplements)).
-
-##### 6.1.3. Gases (smoking)
-
-* **Smoking**
-  * Source: [Even low-intensity smoking increases mortality risk](https://www.medsci.cn/article/show_article.do?id=02ca2083319b).
-  * 42,416 men and 86,735 women, age 35–89, previously healthy. Vs. never-smokers:
-    * <10 cigarettes/day → ACM HR **1.17** (95% CI 1.10–1.25)
-    * ≥10 cigarettes/day → ACM HR **1.54** (1.42–1.67)
-  * Smokers lose an average of **11–12 years of life**. Ex-smokers (quit before the study) had lower mortality than current daily smokers. The biggest disease links: respiratory cancer, COPD, gastrointestinal and vascular disease.
-
-##### 6.1.4. Sunlight
-
-* **Sun exposure**
-  * A 26-year Danish study found that more sun exposure was associated with significantly longer life — **even people who developed skin cancer from over-exposure lived an average of 6 years longer** than the general population. The implication: the cardiovascular and metabolic benefits of sun (vitamin D, nitric oxide, circadian regulation) outweigh the skin cancer cost at the population level.
-
-##### 6.1.5. Drugs and supplements
-
-> **Important:** This section discusses prescription drugs and supplements. Doses, interactions, and contraindications matter. Talk to a doctor before starting anything here — especially metformin, which is prescription-only in most countries.
-
-* **NMN** (nicotinamide mononucleotide) — popular longevity supplement; evidence in humans remains preliminary.
-
-* **Metformin**
-  * Type 2 diabetes drug that has been used for ~100 years. Beyond glycemic control, it has shown protective effects in tumors, CVD, obesity, liver and kidney disease, and aging. Diabetics on metformin sometimes have lower mortality than non-diabetics (i.e., the drug appears to add years even controlling for the disease it treats).
-  * ![Metformin](https://user-images.githubusercontent.com/2707039/163702325-5d427542-9ae5-4311-8979-d0d326a9832f.jpg)
-  * **Side effects (well-characterized):** vitamin B12 deficiency (7–17.4%), GI side effects (up to 53%), fatigue (9%), headache (6%). Rare but serious: lactic acidosis, liver injury. Possible fetal harm in some studies.
-
-* **Multivitamins**
-  * Reduce cancer risk by **~8%**; other effects not significant in large trials.
-
-* **Glucosamine (with chondroitin)**
-  * Source: West Virginia University, using NHANES data 1999–2010, 16,686 adults, median follow-up 107 months. 648 participants took 500–1,000 mg/day of glucosamine/chondroitin for over a year.
-  * Result: **−65% CVD mortality, −39% ACM** — comparable to the effect of regular exercise.
-
-* **Spermidine** (a polyamine; despite the unfortunate name, it's plentiful in food)
-  * Found at high concentrations in wheat germ, soybean products (esp. natto), mushrooms (shiitake), aged cheeses, fresh peppers, cauliflower, broccoli, and durian.
-  * In a 20-year follow-up of 829 people age 45–84, dietary spermidine intake was inversely associated with mortality. Tertiles (low <62.2 µmol/day, mid 62.2–79.8, high >79.8) had crude mortality rates of 40.5%, 23.7%, and **15.1%** respectively. The association held after adjusting for age, sex, and caloric intake.
-  * Main dietary sources in this study: whole grains (13.4%), apples and pears (13.3%), salad (9.8%), sprouts (7.3%), potatoes (6.4%).
-
-* **Overview**
-  * ![How to develop anti-aging drugs (Nature sub-journal)](https://user-images.githubusercontent.com/2707039/163702474-205baeec-f0ce-4e8d-96a4-36efe47534de.jpg)
-
-#### 6.2. Outputs (what you do)
-
-##### 6.2.1. Racquet sports
-
-* Per a Lancet analysis of which sports give the best mortality return: **3× per week, 45–60 minutes of racquet sports → ~−47% ACM**.
-* Badminton, table tennis, and tennis all count. The study population was largely Western, so tennis dominates the data, but the implicit message is that **whole-body coordinated exercise** (which racquet sports demand) matters more than the specific sport.
-
-##### 6.2.2. Vigorous exercise
-
-* Source: [Eur Heart J — short bouts of vigorous physical activity and mortality](https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehac572/6771381).
-* Just **15–20 minutes of vigorous exercise per week** is associated with a **16–40% drop in ACM**. Increasing to 50–57 minutes/week further lowers ACM. You don't need a huge time commitment.
-
-##### 6.2.3. Walking
-
-* JAMA sub-journal, 10+ year follow-up: more daily steps → lower ACM, with diminishing returns past a certain point.
-* ![Walking](https://user-images.githubusercontent.com/2707039/163704147-afec1c79-799b-4db8-b547-1a2431d504c9.jpg)
-* Caveats: average study age was 45.2; step count correlates with occupation; this is correlation only.
-
-##### 6.2.4. Brushing your teeth
-
-* Source: 500,000-person Chinese cohort. People who rarely brush their teeth had +9% cancer risk, +12% COPD, +25% liver cirrhosis, and **+25% risk of premature death**. The proposed mechanism is chronic oral bacterial infection driving systemic inflammation.
-
-##### 6.2.5. Bathing
-
-* Vs. bathing 1–2× per week or not at all, a **daily hot bath** is associated with **−28% total cardiovascular risk, −26% stroke risk, and −46% intracerebral hemorrhage risk**. Bath frequency was not linked to higher cardiac sudden death.
-* *Cultural note: this is a Japanese/East Asian study and refers to soaking in a hot tub, not a quick shower.*
-
-##### 6.2.6. Housework (for older men)
-
-* Source: [Housework Reduces All-Cause and Cancer Mortality in Chinese Men](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061529).
-* In men aged 72+, doing heavy housework weekly was associated with **−29% ACM**.
-* **Heavy housework:** vacuuming, scrubbing floors, mopping, washing windows, washing the car, moving furniture, hauling gas cylinders.
-* **Light housework:** dusting, dishwashing, hand-washing clothes, ironing, hanging laundry, cooking, grocery shopping.
-
-##### 6.2.7. Sleep
-
-* **Duration.** Source: 300,000+ Asian adults. Vs. 7 hours/night:
-  * Men sleeping ≥10 hours → **+34% ACM.**
-  * Women sleeping ≥10 hours → **+48% ACM.**
-  * ![Sleep — men](https://user-images.githubusercontent.com/2707039/163704166-226b7ebb-92ce-4753-a3e7-77a87652a104.jpg)
-  * ![Sleep — women](https://user-images.githubusercontent.com/2707039/163704169-c5c715aa-7130-403b-b0d1-ec34fab094d8.png)
-* **Bedtime (controversial).** A Canadian study reports that both going to bed too early and too late are associated with higher ACM, but **early sleepers had +43% ACM** vs. **+15% for late sleepers**. Caveats: self-reported sleep times, no causal mechanism established. Treat with skepticism.
-
-##### 6.2.8. Prolonged sitting
-
-* Sources: [China Dietary Guidelines Scientific Report (2021)](https://www.chinanutri.cn/yyjkzxpt/yyjkkpzx/yytsg/zgjm/202103/P020210311486742870527.pdf), [WHO Guidelines on Physical Activity and Sedentary Behavior](https://apps.who.int/iris/bitstream/handle/10665/337001/9789240014947-chi.pdf).
-* Sitting time and TV-watching time are independent risk factors for ACM, CVD, cancer, and type 2 diabetes. Each additional hour of sitting per day: **+4% CVD, +1% cancer, +3% ACM**.
-* Risk thresholds: 6–8 hours/day of sitting; 3–4 hours/day of TV-watching.
-
-#### 6.3. Context (who you are)
-
-##### 6.3.1. Mood
-
-* Source: [Pessimism is associated with greater all-cause and cardiovascular mortality, but optimism is not protective](https://www.nature.com/articles/s41598-020-69388-y).
-* In an Australian twin study (50+ years old, started 1993–95) with 20-year follow-up, **pessimism scores predicted higher ACM and CVD mortality** (HR per 1 SD: 1.134 and 1.196 respectively), but optimism scores did *not* predict lower mortality. Reverse causation (sick people becoming pessimistic) is unlikely because the same effect should have shown up for cancer mortality, and it didn't.
-* Practical: pessimism is a real risk factor, but you can't simply "be optimistic" your way to longer life.
-
-##### 6.3.2. Wealth
-
-* JAMA sub-journal study, 5,414 participants, mean age 46.7. **Higher net worth was associated with lower mortality.** Crucially, this held true *within* sibling and twin pairs (n = 2,490): the wealthier sibling outlived the poorer one. This rules out most genetic and shared-upbringing confounders — wealth itself appears to extend life.
-
-##### 6.3.3. Body weight
-
-* Source: JAMA sub-journal. Adults who went from obese to merely overweight had **−54% ACM (HR 0.46)** compared to those who stayed obese. But adults who went from "overweight as a young adult" to "normal weight by middle age" did *not* show a mortality benefit (HR 1.12). **Translation: losing weight after you're already obese in adulthood helps a lot; trying to slim down from a young-adult overweight to a middle-age normal weight does not.**
-* ![Weight table](https://raw.githubusercontent.com/qhy040404/Image-Resources-Repo/master/zoi200509t3_1596761185.02415.png)
-
-##### 6.3.4. COVID-19
-
-* Source: [Magnitude, demographics and dynamics of the effect of the first wave of the COVID-19 pandemic on all-cause mortality in 21 industrialized countries](https://www.nature.com/articles/s41591-020-1112-0.pdf).
-* US COVID mortality so far hovers around 1.5%; mean life expectancy fell ~2 years in the worst-hit years.
-* Reference: [CDC NVSS deaths](https://www.cdc.gov/nchs/nvss/deaths.htm).
+* **ACM** — *all-cause mortality.* Risk of dying from any cause in a given window.
+* **HR** — *hazard ratio.* "How many times more likely the exposed group is to die than the control group." HR 1.10 = 10% higher risk; HR 0.50 = 50% lower.
+* **CI** — *confidence interval.* The range the true effect probably falls within (95% CI is the convention).
+* **RR / OR** — *relative risk / odds ratio.* Similar interpretation to HR for our purposes.
+* **VO2max** — peak rate at which your body can use oxygen during exercise. The single best aerobic-fitness measure, and the strongest mortality predictor in the literature.
+* **MET** — *metabolic equivalent.* 1 MET ≈ sitting; 4 METs ≈ brisk walk; 10 METs ≈ jogging.
+* **Zone 2** — easy steady-state cardio at the upper edge of conversational pace (~60–70% of max HR). The dominant training stimulus for mitochondrial density and aerobic base.
+
+### 2. Goals and key results
+
+* **Live longer, reliably**, by stacking interventions each backed by strong evidence.
+* **Realistic stack:** the combined effect of being aerobically fit, lifting 30–60 min/week, not smoking, sleeping well, maintaining close relationships, and eating mostly real food is plausibly **15–25 added years** vs. a sedentary, isolated, ultra-processed-diet baseline. The effects don't stack cleanly (they aren't independent), but the direction across dozens of large studies is unambiguous.
+
+### 3. How to read the evidence
+
+* **ACM is the gold-standard endpoint.** Disease-specific outcomes can be gamed (a diet that "prevents heart disease" but raises cancer the same amount nets zero); ACM can't.
+* **Most studies show correlation, not causation.** Healthy people are often *able* to walk more, drink more coffee, sleep regularly, etc. Read with skepticism — but when a finding shows up across many populations, decades, and study designs, it's probably real.
+* **Effects don't stack additively.** A −20% intervention plus a −20% intervention rarely yields −36%; you're stacking dependent variables.
+* **The literature contradicts itself in places.** Sodium, carb ratios, and bedtime timing are areas where you'll find loud, opposite claims. Be wary of single-study results, especially with self-reported data.
+* **Effect size > p-value.** A statistically significant 2% mortality reduction in a 200,000-person study barely matters in practice. A 40% reduction in a 5,000-person study probably matters a lot.
+
+### 4. The action list (TL;DR)
+
+If you do nothing else with this guide, do these:
+
+1. **Become aerobically fit.** Run, bike, row, or swim such that you can comfortably hold Zone 2 for 45+ minutes, and can hit hard intervals once a week. This single factor is the strongest ACM predictor we have. ([§5.1](#51-cardiorespiratory-fitness-vo2max))
+2. **Lift 2–3× per week.** 30–60 min/week of resistance training is the sweet spot. ([§5.2](#52-resistance-training))
+3. **Sleep ~7–9 hours, on a consistent schedule.** ([§5.3](#53-sleep))
+4. **Don't smoke, don't vape, drink alcohol minimally.** ([§5.4](#54-dont-smoke-or-vape))
+5. **Maintain real, in-person social relationships.** Loneliness has a mortality effect comparable to smoking. ([§5.5](#55-social-connection), [§10](#10-mental-health-and-social-connection))
+6. **Cut ultra-processed food.** UPF is 57% of average US calories — every percentage point you replace with whole food matters. ([§6](#6-diet-in-the-us-food-environment))
+7. **Eat enough protein.** As an active adult, target 1.4–2.0 g/kg/day (≈0.6–0.9 g/lb), not the sedentary RDA of 0.8 g/kg. ([§6](#6-diet-in-the-us-food-environment))
+8. **Train and play in ways that don't blow out your joints.** A torn ACL at 21 means osteoarthritis at 40. Knee/ankle health compounds for decades. ([§8](#8-sport-specific-injury-prevention))
+
+Note on age-specific context: in your 20s, the literal #1 cause of death in the US is unintentional injury, with motor-vehicle crashes and overdose dominating. Seatbelts, sober driving, and avoiding fentanyl-contaminated drugs probably save more expected years than any single dietary intervention in this guide. The rest of this document addresses the chronic-disease risk that catches up with you later — but don't lose sight of the boring stuff.
 
 ---
 
-*This is a translated and adapted version of the original Chinese guide. For the Chinese source text, see [README_zh.md](README_zh.md).*
+### 5. Foundations (the biggest levers)
+
+#### 5.1. Cardiorespiratory fitness (VO2max)
+
+**This is the headline finding of the entire longevity literature, and most people have never heard it.**
+
+In a 2018 study of **122,007 patients** undergoing exercise treadmill testing, with a median 8.4-year follow-up, **elite-fitness vs. low-fitness adjusted HR for ACM was 0.20** (95% CI 0.16–0.24) — meaning the lowest-fitness group died at **roughly 5× the rate** of the highest-fitness group. The effect size exceeded coronary artery disease, smoking, and diabetes. There was no upper limit to the benefit; even elite vs. "high" fitness had HR 0.77.
+
+* **Source:** Mandsager K, et al. [*Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing*](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2707428). JAMA Netw Open. 2018.
+
+Meta-analytic data from Kodama et al. (JAMA, 2009): **every 1-MET increase in fitness reduces ACM by ~13% and CVD mortality by ~15%.** A 1-MET difference is the difference between being able to jog a 10-min mile vs. an 11-min mile.
+
+**What to do:**
+* **Zone 2 cardio, 2–4 hours per week.** Easy steady-state — you should be able to hold a conversation, just barely. Running, cycling, rowing, brisk hiking all work. This builds your aerobic base and mitochondrial density.
+* **One harder session per week.** 4×4-minute intervals at ~90% max HR (the "Norwegian 4×4" protocol) is the most studied VO2max-builder. Hill sprints, threshold runs, or pickup-basketball-with-intent all qualify.
+* **For basketball players specifically:** pickup games are *not* substitutes for structured cardio. Game pace is intermittent and skill-driven; you need dedicated Zone 2 + interval work to build the engine that lets you actually play your way through 4 quarters at full intensity.
+
+#### 5.2. Resistance training
+
+In a 2022 meta-analysis of **16 cohort studies and 1.5+ million participants**, muscle-strengthening activities were associated with **10–17% lower ACM, CVD, cancer, diabetes, and lung-cancer mortality**. The dose-response curve is non-linear and peaks at roughly **30–60 minutes per week**, with the lowest ACM at **~40 min/week**. More is fine — the benefit just plateaus.
+
+* **Source:** Momma H, et al. [*Muscle-strengthening activities are associated with lower risk of all-cause, cancer and cardiovascular disease mortality*](https://pmc.ncbi.nlm.nih.gov/articles/PMC9209691/). Br J Sports Med. 2022.
+
+Note that this "30–60 minutes" is *time spent lifting*, not time at the gym. Two 45-minute strength sessions per week, mostly compound lifts, hits the target with plenty of room to spare.
+
+**What to do:**
+* **2–3 lifting sessions per week** built around compound movements: squat, deadlift / RDL, bench press, overhead press, row, pull-up.
+* **Progressive overload.** Add load or reps over time; track it.
+* **Don't skip lower body.** Quad and hip strength are the biggest determinants of long-term knee health and fall risk — yes, fall risk in your 70s starts with what you do now.
+
+#### 5.3. Sleep
+
+Sleep is where every other intervention in this guide either pays off or doesn't. It's also the one most people in their 20s underrate.
+
+* **Duration:** 7–9 hours/night is the ACM minimum. Both <6 and >10 hours are associated with higher mortality (though the high end is partly reverse causation — sick people sleep more).
+* **Consistency matters as much as duration.** Going to bed and waking up at variable times raises cardiovascular risk independent of total sleep.
+* **For training:** sleep is when muscle protein synthesis, glycogen restoration, and CNS recovery happen. There is no supplement, recovery modality, or training hack that substitutes for it.
+
+**What to do:** dark room, cool room, consistent schedule (±30 min) including weekends, no alcohol within 3 hours of bed, no caffeine after ~2 pm if you're sensitive, phone out of the bedroom if you can swing it.
+
+#### 5.4. Don't smoke or vape
+
+Smokers lose an average of **11–12 years of life expectancy**. Even <10 cigarettes/day raises ACM by **~17%** vs. never-smokers; ≥10/day raises it by **~54%**. The biggest disease links are respiratory cancer, COPD, and GI/vascular disease.
+
+* **Source:** Pirie K, et al. Lancet. 2013 (Million Women Study).
+
+Vaping is newer and the long-term data is thinner, but the early evidence strongly suggests it's a bad bet — nicotine is vasoconstrictive regardless of delivery vehicle, and several vape constituents (vitamin E acetate, certain flavorings, fine particulates) have established harms.
+
+**Alcohol.** The "moderate drinking is healthy" finding from the 1990s has not held up under modern reanalysis. The current consensus is that there is no risk-free level, and the cleanest finding from large prospective studies is that less is better. Heavy drinking adds ~50% to ACM with no clear ceiling. Practical version for someone in their 20s: don't drink during the week, keep weekend drinking in single digits per session, never drive after even one drink.
+
+#### 5.5. Social connection
+
+The 2010 Holt-Lunstad meta-analysis pooled **148 studies and 308,849 participants** and found that strong social relationships are associated with a **50% increased likelihood of survival** (OR 1.50, 95% CI 1.42–1.59). The authors compared the effect size to smoking 15 cigarettes per day — and stronger than the effect of obesity or physical inactivity.
+
+* **Source:** Holt-Lunstad J, Smith TB, Layton JB. [*Social Relationships and Mortality Risk: A Meta-analytic Review*](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316). PLoS Med. 2010.
+
+The US Surgeon General issued a [2023 advisory](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) specifically on loneliness as a public health crisis, citing rising isolation among young adults, especially young men.
+
+**What to do** (and yes, this section feels weird in a longevity doc — that's the problem):
+* Default to **in-person** time over text/DMs/Discord. The mortality effect is specifically about face-to-face contact.
+* Build at least one **third place** outside work and home: a gym, a basketball league, a regular pickup spot, a climbing gym, a recurring dinner.
+* If you're struggling, get a therapist. Therapy access is one of the genuine privileges of US healthcare when it works; use it. See [§10](#10-mental-health-and-social-connection).
+
+---
+
+### 6. Diet in the US food environment
+
+The US food environment is not the same one most longevity literature was written about. As of the most recent NHANES data, **ultra-processed foods (UPF) make up roughly 57% of average US adult calories.** That's the load-bearing fact for this section.
+
+* **Source:** Juul F, et al. [*Ultra-processed food consumption among US adults from 2001 to 2018*](https://pubmed.ncbi.nlm.nih.gov/35234813/). Am J Clin Nutr. 2022.
+
+#### 6.1. Cut ultra-processed food
+
+UPF is the category that includes most packaged snacks, sugar-sweetened drinks, fast-food items, industrial bread, sweetened breakfast cereals, frozen pizzas, and most "protein bars." It is *not* synonymous with "processed" — frozen vegetables, plain yogurt, canned beans, oats, and frozen wild fish are minimally processed and fine.
+
+The BMJ SUN cohort (Spain, 19,899 participants) found people in the top quartile of UPF intake had **62% higher ACM** than the bottom quartile. The mechanism is contested (energy density, additives, displacement of nutrient-dense foods, all three), but the signal is robust across cohorts.
+
+* **Source:** Rico-Campà A, et al. [*Association between consumption of ultra-processed foods and all cause mortality: SUN prospective cohort study*](https://www.bmj.com/content/365/bmj.l1949.full). BMJ. 2019.
+
+**Practical rule:** if it has more than ~5 ingredients on the label, or any you don't recognize, treat it as occasional food. If it advertises a health claim on the front of the package, be extra skeptical — that's a strong signal of UPF.
+
+#### 6.2. Protein for active adults
+
+The US RDA for protein is **0.8 g/kg/day**, which is the *minimum to prevent deficiency in a sedentary adult*. It is not the optimal intake for someone who lifts and plays sports.
+
+The International Society of Sports Nutrition position stand on protein and exercise recommends **1.4–2.0 g/kg/day for active individuals**, with the higher end of that range during caloric deficits or aggressive training blocks.
+
+* **Source:** Jäger R, et al. [*ISSN Position Stand: Protein and Exercise*](https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8). JISSN. 2017.
+
+For a 75 kg (165 lb) lifter, that's roughly **105–150 g protein per day**, spread across 3–5 feedings of 25–40 g each (the per-meal cap on muscle protein synthesis is somewhere around 0.4 g/kg per meal).
+
+**Good US-supermarket sources:** Greek yogurt (~17 g/cup), cottage cheese (~25 g/cup), eggs (~6 g each), chicken breast (~30 g per 100 g cooked), salmon (~25 g per 100 g cooked), lean ground beef (~25 g per 100 g cooked), whey protein powder (~25 g per scoop), lentils (~18 g/cup cooked), tofu (~20 g per 100 g), tempeh (~20 g per 100 g).
+
+#### 6.3. Red meat, white meat, and fish
+
+Source: [JAMA Internal Medicine, 2020](https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2759737/jamainternal_zhong_2020_oi_190112.pdf). Half a daily serving of red meat (≈14 g processed or 40 g unprocessed) raises 8-year ACM by **10%** (HR 1.10, 95% CI 1.04–1.17). Two weekly servings of red or processed meat raises ACM by ~3%. Poultry and fish don't show this effect.
+
+**Practical version:** poultry and fish are your main animal proteins. Red meat 1–2× per week is fine. Processed meat (bacon, hot dogs, deli) is the real category to keep occasional — these carry the strongest ACM signal in the meat literature.
+
+#### 6.4. Vegetables, fruit, fiber, flavonoids
+
+The boring advice is the right advice: eat a lot of plants. **200 g/day of fresh fruit** (≈2 medium fruits) is associated with **−17% mortality** (Global Dietary Database, 2019). Flavonoid-rich foods — apples, berries, citrus, tea, broccoli, kale — were associated with **−20% mortality** in the Danish Diet Cancer and Health cohort (Nature Communications, 2019).
+
+**Target:** at least one serving of vegetables at each main meal, one or two fruits per day, and ~30 g of fiber per day (the average US adult gets ~15). Beans, lentils, oats, berries, broccoli, and whole grains are the easy fiber wins in a US grocery store.
+
+#### 6.5. Drinks
+
+* **Coffee.** A 40-study meta-analysis (~3.85M people) finds non-linear dose-response: **~3.5 cups/day yields the lowest ACM (RR 0.85)**. Diminishing returns after that. Decaf and caffeinated both show benefit. Don't add sugary creamers and undo the effect.
+* **Tea.** Daily tea drinkers vs. never: HR ~0.92 for ACM in large cohorts. Both green and black work.
+* **Milk and dairy.** PURE study (~130k people, 21 countries): two daily servings of dairy → **−17% ACM, −23% CVD mortality, −33% stroke risk** vs. none. The "dairy is bad" narrative is not well supported.
+* **Sugar-sweetened drinks.** Each daily 12-oz serving: **+11% ACM**. Two/day: **+21% ACM, +31% CVD mortality**. Includes "sports drinks" with sugar.
+* **Artificially-sweetened ("diet") drinks.** *Worse* than sugar-sweetened in the JAMA Internal Medicine 10-European-country cohort: **+27% ACM** per daily serving. Mechanism unclear; the data is what it is. If you drink a lot of diet soda, treat it as a habit worth phasing down.
+* **Fruit juice.** Per a JAMA sub-journal analysis, each daily 12-oz serving of juice is associated with **+24% ACM**. Eat the fruit, don't drink it.
+* **Alcohol.** Covered in [§5.4](#54-dont-smoke-or-vape). Short version: there is no clearly safe dose; less is better.
+
+#### 6.6. The contested stuff (don't over-index)
+
+* **Sodium.** The literature is genuinely split. A 181-country analysis (Eur Heart J 2021) found *positive* correlations between sodium intake and life expectancy, and *negative* correlations with ACM. But low-sodium-salt trials in China and elsewhere show clear cardiovascular benefit. Practical version: if your blood pressure is normal, don't obsess over salt; if it's high, your doctor's advice supersedes any blog post.
+* **Carb ratios.** Lancet Public Health (2018): **~50% of calories from carbs is the longevity sweet spot**. Very low-carb and very high-carb diets both show shorter lifespans. The "carbs are evil" narrative is not consistent with the largest cohort data.
+* **Seed oils.** Currently a contested topic in online nutrition discourse. The strongest meta-analytic data still supports replacing saturated fat with polyunsaturated fat for cardiovascular outcomes; the case against seed oils is largely mechanistic and based on small studies. Don't make this a stress.
+
+---
+
+### 7. Supplements worth considering (and what to skip)
+
+Most supplements don't do much. The shortlist below has actual evidence behind it.
+
+#### 7.1. Creatine — yes
+
+Creatine monohydrate is the single most well-studied performance supplement, and the evidence base has expanded into cognitive function, sarcopenia prevention, and likely (but not proven) longevity. **3–5 g/day, every day, indefinitely.** No loading needed. Cheap, safe, effective. Source: [ISSN Position Stand on Creatine](https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z) (JISSN, 2017).
+
+#### 7.2. Vitamin D — probably, if you're deficient
+
+US deficiency is widespread (estimates vary 25–40% depending on cutoff). The strongest case is during winter at northern latitudes and for people with darker skin. **Get your blood level checked**; if it's <30 ng/mL, supplement (typically 1,000–2,000 IU/day, sometimes more). If it's normal, you don't need to take it.
+
+#### 7.3. Omega-3 (EPA + DHA) — yes if you don't eat fish
+
+If you eat fatty fish (salmon, mackerel, sardines) 2× per week, you probably don't need supplementation. If you don't, **~1–2 g/day combined EPA + DHA** from a quality fish-oil or algal-oil source. The cardiovascular evidence is mixed in healthy populations but consistently positive in elevated-risk groups.
+
+#### 7.4. Multivitamin — small, real benefit
+
+The Physicians' Health Study II and the COSMOS trial both found small but consistent reductions in cancer incidence (~8%) and possible cognitive benefits with a daily multivitamin. Not a game-changer. Cheap insurance.
+
+#### 7.5. Glucosamine — surprisingly strong evidence
+
+NHANES analysis (16,686 US adults, median 107-month follow-up): regular glucosamine/chondroitin users had **−39% ACM and −65% CVD mortality** — comparable to the effect of regular exercise. The mechanism is unclear (anti-inflammatory? cartilage support?), and this is observational data, but the effect size makes it worth knowing about. **500–1,000 mg/day.**
+
+* **Source:** [Bell GA, et al.](https://pubmed.ncbi.nlm.nih.gov/32066969/), and West Virginia University NHANES analysis.
+
+#### 7.6. What to skip (for now)
+
+* **Metformin** — prescription only, real anti-aging interest from researchers, but the evidence in young healthy non-diabetics is weak and the GI side effects are real. Revisit at 40+.
+* **NMN / NR (NAD+ precursors)** — popular, expensive, evidence in humans remains preliminary. Save your money.
+* **Rapamycin** — promising in mice and a few human pilots, but dosing and long-term safety are unclear. Not a self-prescription target.
+* **Spermidine supplements** — the food sources (wheat germ, aged cheese, mushrooms, soy products) are well-documented; the pill form isn't necessary.
+* **Random "longevity stack" formulas** sold by influencers — almost always a worse deal than buying the few things above individually.
+
+---
+
+### 8. Sport-specific injury prevention
+
+This is the section the original guide was missing, and it's the one that matters most if your training profile looks like yours.
+
+**Why it matters for longevity, not just performance.** A torn ACL at 21 has a roughly **40–80% chance of progressing to symptomatic knee osteoarthritis within 10–20 years**, regardless of surgical outcome. Multiple ankle sprains compound similarly into chronic instability and early arthritis. The injuries you prevent in your 20s are the years you gain in your 50s and 60s — both directly (mobility, exercise capacity preserved) and indirectly (sustained ability to exercise, which is the biggest longevity lever of all per [§5](#5-foundations-the-biggest-levers)).
+
+#### 8.1. Basketball
+
+* **ACL prevention.** Programs like [PEP](https://smsmf.org/smsf-programs/pep-program), [FIFA 11+](https://www.yrsa.ca/page/FIFA11), and Sportsmetrics reduce ACL injuries by **~50%** in trial data. Core moves: Nordic hamstring curls (the single highest-evidence exercise — they reduce hamstring strains by ~50% on their own), single-leg squats, lateral bounding with controlled landing, and explicit landing mechanics drills (knees-out, hips-back, soft landing).
+* **Ankle.** The #1 basketball injury, and the one most underrated for long-term consequences. Reduce with: ankle dorsiflexion mobility work, single-leg balance drills (eyes closed, on a pillow), calf strength (heel raises 3 sets of 15+, weighted), and **prophylactic ankle bracing** during games if you have any sprain history — meta-analyses show ~50% reduction in recurrent sprains with no measurable loss of vertical jump.
+* **Patellar tendinopathy ("jumper's knee").** Manage with eccentric quad work (slow-tempo Spanish squats, decline squats), volume management on consecutive jumping days, and not playing through pain that lingers beyond 24 hours.
+
+#### 8.2. Lifting
+
+* **Lower back.** The single biggest cause of lifting injuries. Master the hip hinge before loading the deadlift. Don't ego-lift. Take deload weeks every 4–8 weeks (one week at 50–60% volume). Pain in the lower back during a lift is not "pushing through it" — it's the warning signal you wanted.
+* **Shoulder.** Build scapular control (face pulls, band pull-aparts, rear delt work). Don't bench through shoulder pain. Overhead pressing is fine, but if you can't get full overhead range without pain, regress the movement until you can.
+* **Knees.** Lifting builds knee resilience when programmed well — don't be afraid of squats. The risk is volume + intensity + bad recovery, not the movement itself.
+
+#### 8.3. General
+
+* **Warm up properly.** 5–10 minutes of progressive movement before lifts; an actual dynamic warm-up before basketball. Static stretching before activity is fine but doesn't replace dynamic prep.
+* **Sleep is your recovery.** See [§5.3](#53-sleep). All the foam-rolling and ice baths in the world don't substitute.
+* **Treat pain as data.** Sharp/joint/lingering pain → back off and address it. Vague muscle soreness → normal.
+
+---
+
+### 9. Recovery and daily habits
+
+#### 9.1. Walking
+
+The Saint-Maurice 2020 JAMA paper (4,840 US adults, NHANES, mean 10.1-year follow-up) found a clean dose-response:
+
+* 8,000 vs. 4,000 steps/day → **HR 0.49** (51% lower ACM)
+* 12,000 vs. 4,000 steps/day → **HR 0.35** (65% lower ACM)
+
+* **Source:** Saint-Maurice PF, et al. [*Association of Daily Step Count and Step Intensity With Mortality Among US Adults*](https://jamanetwork.com/journals/jama/fullarticle/2763292). JAMA. 2020.
+
+Step intensity (cadence) didn't add much above raw count. **Target 8,000+ steps/day** as a floor; this is *separate* from your structured training. Walking the dog, walking to class, parking far, taking stairs.
+
+#### 9.2. Sitting
+
+The WHO and large cohort data agree: sitting time and TV-watching time are independent risk factors. Each hour of daily sitting → **+3% ACM, +4% CVD, +1% cancer**. Risk thresholds: ~6–8 hours/day of sitting; ~3–4 hours/day of screen-sitting (TV/gaming).
+
+Breaking up sitting matters as much as total time. Every 30–60 minutes, stand for 2–3 minutes. If you work at a desk, a standing-desk option or just standing during phone calls helps.
+
+#### 9.3. Sun exposure
+
+A 26-year Danish cohort found that more sun exposure correlated with longer life — even people who developed skin cancer from over-exposure lived an average of **6 years longer** than the general population. The proposed mechanism is vitamin D + nitric oxide release + circadian benefit; the skin cancer cost is real but smaller in mortality terms than the cardiovascular and metabolic upside.
+
+**Practical version:** get morning sun on skin and in eyes (anchors circadian rhythm), use sunscreen on extended midday exposure to limit melanoma risk, don't fear the sun.
+
+#### 9.4. Brushing your teeth
+
+A 500,000-person Chinese cohort found people who rarely brushed had **+25% premature death risk**, plus higher cancer (+9%), COPD (+12%), and cirrhosis (+25%) risk. The mechanism is chronic oral bacterial infection → systemic inflammation. Brush 2×/day, floss daily, see a dentist every 6 months. Cheap longevity.
+
+#### 9.5. Sauna
+
+In the Finnish Kuopio cohort (2,315 middle-aged men, median 20.7-year follow-up), sauna 4–7×/week vs. 1×/week was associated with **−40% ACM (HR 0.60, 95% CI 0.46–0.80)** and similarly large reductions in cardiovascular mortality. Replication studies in other populations support the direction.
+
+* **Source:** Laukkanen T, et al. [*Association between sauna bathing and fatal cardiovascular events and all-cause mortality*](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724). JAMA Intern Med. 2015.
+
+Hot tub bathing shows similar but smaller effects. If you have gym access with a sauna, **20+ minutes per session, 3–4 sessions per week** is the dose range supported by the data.
+
+---
+
+### 10. Mental health and social connection
+
+This is the section most longevity content skips, and the one US men in their 20s most need.
+
+**The numbers.** Per the 2010 Holt-Lunstad meta-analysis (148 studies, 308,849 participants), strong social relationships are associated with a **50% higher likelihood of survival** vs. weak ones. The effect is comparable to smoking 15 cigarettes/day and larger than the effect of physical inactivity or obesity. The mechanism is partly behavioral (connected people exercise more, drink less, get medical care earlier) and partly direct (chronic stress, cortisol, inflammation, immune function).
+
+**The US context.** The Surgeon General's 2023 advisory documented rising loneliness across the US, with the steepest increase among adults under 30. Time spent in face-to-face social contact among Americans has dropped roughly 20 hours per month over the last two decades — primarily replaced by screen time, not other forms of contact.
+
+**What actually helps:**
+* **Recurring, in-person commitments.** A weekly basketball pickup, a Tuesday-night dinner, a regular lifting partner, a class you take every Thursday. The recurrence does more than any individual event.
+* **Three or more close friends you'd call at 2am.** This is the threshold most loneliness research uses for "adequate social support."
+* **Therapy if you're struggling.** US healthcare is a mess but most college and grad schools provide it free or low-cost, and many employers cover it. Use it. Cognitive behavioral therapy has the strongest evidence base for depression, anxiety, and social isolation. Don't wait until you're in crisis.
+* **Phone use audit.** If you average >4 hours/day on your phone, you're crowding out the activities that protect you. The phone itself isn't the problem; it's what it displaces.
+
+**Pessimism is a risk factor; optimism is not protective.** An Australian twin study (Nature Scientific Reports, 2020) followed 50+-year-olds over 20 years and found pessimism scores predicted higher ACM and CVD death (HR 1.13 per 1 SD pessimism); optimism scores did not predict lower mortality. Translation: actively reduce rumination, catastrophizing, and chronic negative self-talk — therapy, exercise, sleep, and social contact all help. Don't aim for fake positivity, just reduce the negative.
+
+---
+
+### 11. What we de-prioritized from the original guide
+
+For transparency, here's what the [original Chinese guide](README.md) emphasized that this version doesn't, and why:
+
+* **Metformin.** Prescription-only. The longevity case is interesting but the strongest evidence is in diabetics and the very old. Revisit at 40+.
+* **NMN, spermidine supplementation.** Human evidence is preliminary; food sources of spermidine (whole grains, wheat germ, mushrooms, soy) are well-documented and cheaper.
+* **Weight loss from obese → overweight.** The −54% ACM finding is real, but applies to a population most readers of this version don't belong to. If you are obese, that intervention is the highest-leverage thing in your life — but pick up the original guide or talk to a doctor, this isn't the right document.
+* **Bedtime timing (10pm vs. midnight) claim.** Comes from one Canadian self-report study and is contested. Sleep duration and consistency matter; the exact clock hour matters less.
+* **Housework for men age 72+.** Relevant in 50 years, not now.
+* **Betel nut.** Negligible US prevalence.
+* **COVID section.** Time-bounded; the worst-wave mortality data is no longer the most relevant context.
+
+---
+
+### 12. Things you can't change much (but should know)
+
+#### 12.1. Wealth and socioeconomic status
+
+JAMA sub-journal twin/sibling analysis found higher net worth associated with lower mortality *within sibling and twin pairs* — meaning the effect survives genetic and shared-upbringing controls. Wealth itself extends life, probably through stress, healthcare access, neighborhood quality, and time. You can't directly optimize this with a habit, but it's worth knowing that career and financial trajectory have a real longevity component. Don't treat work and money purely as costs.
+
+#### 12.2. Genetics and family history
+
+Some things you can't change. But you can know your numbers:
+
+* **Get a baseline lipid panel** (total cholesterol, LDL, HDL, triglycerides, ideally ApoB and Lp(a)) by your mid-20s. Lp(a) is genetic, mostly unmodifiable, and a powerful independent risk factor that most people never measure.
+* **A1c** (3-month average blood sugar) — once in your 20s, every few years after.
+* **Blood pressure** — at every doctor visit. Hypertension is the most damaging undertreated condition in the US.
+* **Family history of CVD before 60 in a parent/sibling** is the single biggest "do not skip cardiology screening" flag. If it applies to you, know your numbers earlier and more aggressively.
+
+#### 12.3. Where this leaves you
+
+The interventions in [§5](#5-foundations-the-biggest-levers) account for the overwhelming majority of modifiable mortality risk for someone in your demographic. Cardiorespiratory fitness, resistance training, sleep, not smoking, real food, and real relationships. Everything in sections 6–10 refines or reinforces those. The supplements section is where you spend money for small marginal gains.
+
+If you're reading this guide in your 20s and you nail the foundations, the chronic-disease compounding you're avoiding is enormous. The atherosclerosis that kills 60-year-olds started in their 20s. The osteoarthritis that limits 50-year-olds started with the first untreated injury. The cognitive decline that catches up in the 70s tracks back to fitness and social connection in the decades before. **The best longevity intervention is starting early.**
+
+---
+
+*Forked from [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger). Re-authored for a US, athletically-engaged audience. None of this is medical advice — see a doctor for anything specific to your health.*
