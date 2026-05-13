@@ -22,7 +22,9 @@ An evidence-based summary of the interventions that actually move **all-cause mo
   - [5.3. Sleep](#53-sleep)
   - [5.4. Don't smoke or vape](#54-dont-smoke-or-vape)
   - [5.5. Social connection](#55-social-connection)
+  - [5.6. Chronic stress](#56-chronic-stress)
 - [6. Diet in the US food environment](#6-diet-in-the-us-food-environment)
+  - [6.7. Body composition (not weight)](#67-body-composition-not-weight)
 - [7. Supplements worth considering (and what to skip)](#7-supplements-worth-considering-and-what-to-skip)
 - [8. Sport-specific injury prevention](#8-sport-specific-injury-prevention)
 - [9. Recovery and daily habits](#9-recovery-and-daily-habits)
@@ -69,6 +71,34 @@ If you do nothing else with this guide, do these:
 6. **Cut ultra-processed food.** UPF is 57% of average US calories — every percentage point you replace with whole food matters. ([§6](#6-diet-in-the-us-food-environment))
 7. **Eat enough protein.** As an active adult, target 1.4–2.0 g/kg/day (≈0.6–0.9 g/lb), not the sedentary RDA of 0.8 g/kg. ([§6](#6-diet-in-the-us-food-environment))
 8. **Train and play in ways that don't blow out your joints.** A torn ACL at 21 means osteoarthritis at 40. Knee/ankle health compounds for decades. ([§8](#8-sport-specific-injury-prevention))
+9. **Manage chronic stress.** Sustained psychosocial stress carries a population-attributable risk for heart attack roughly comparable to abdominal obesity. ([§5.6](#56-chronic-stress))
+
+#### Quick reference — the numbers
+
+| Lever | Target | Section |
+|---|---|---|
+| Zone 2 cardio | 2–4 hours/week | [§5.1](#51-cardiorespiratory-fitness-vo2max) |
+| Vigorous intervals | 15–60 min/week | [§5.1](#51-cardiorespiratory-fitness-vo2max) |
+| Resistance training | ~40 min/week (range 30–60) | [§5.2](#52-resistance-training) |
+| Sleep | 7–9 hours, consistent ±30 min | [§5.3](#53-sleep) |
+| Daily steps | 8,000+ as a floor | [§9.1](#91-walking) |
+| Protein | 1.4–2.0 g/kg/day (≈0.6–0.9 g/lb) | [§6.2](#62-protein-for-active-adults) |
+| Fiber | 30+ g/day | [§6.4](#64-vegetables-fruit-fiber-flavonoids) |
+| Sitting | <6 hours/day; break every 30–60 min | [§9.2](#92-sitting) |
+| Coffee | up to ~3.5 cups/day (no sugar) | [§6.5](#65-drinks) |
+| Alcohol | minimize; no clearly safe dose | [§5.4](#54-dont-smoke-or-vape) |
+| Smoking / vaping | zero | [§5.4](#54-dont-smoke-or-vape) |
+| Creatine | 3–5 g/day, indefinitely | [§7.1](#71-creatine--yes) |
+| Vitamin D | check level; supplement if <30 ng/mL | [§7.2](#72-vitamin-d--probably-if-youre-deficient) |
+| Omega-3 (EPA+DHA) | 1–2 g/day if not eating fatty fish 2×/wk | [§7.3](#73-omega-3-epa--dha--yes-if-you-dont-eat-fish) |
+| Glucosamine | 500–1,000 mg/day | [§7.5](#75-glucosamine--surprisingly-strong-evidence) |
+| Sauna | 20+ min, 3–4×/week if available | [§9.5](#95-sauna) |
+| Sun exposure | daily, especially morning | [§9.3](#93-sun-exposure) |
+| Close in-person relationships | recurring weekly+ contact | [§5.5](#55-social-connection), [§10](#10-mental-health-and-social-connection) |
+| Body fat % (population health) | M: 10–22%; W: 18–32% | [§6.7](#67-body-composition-not-weight) |
+| Waist circumference | M: <40"; W: <35" | [§6.7](#67-body-composition-not-weight) |
+| Baseline labs (by mid-20s) | lipid panel + ApoB + Lp(a), A1c, BP | [§12.2](#122-genetics-and-family-history) |
+| Coronary calcium (CAC) scan | by age 40, sooner with family hx | [§12.2](#122-genetics-and-family-history) |
 
 Note on what changes by decade. In your 20s and into your 30s, the #1 cause of death in the US is unintentional injury — motor-vehicle crashes and overdose dominate. Seatbelts, sober driving, and avoiding fentanyl-contaminated drugs probably save more expected years than any dietary intervention in this guide. By your late 30s and 40s, the curve crosses over: cancer and cardiovascular disease overtake accidents, and the foundations you've been building (or not) start to show. The interventions below address both — but at the younger end, don't lose sight of the boring stuff, and at the older end, get your numbers checked ([§12.2](#122-genetics-and-family-history)).
 
@@ -141,6 +171,29 @@ The US Surgeon General issued a [2023 advisory](https://www.hhs.gov/sites/defaul
 * Build at least one **third place** outside work and home: a gym, a basketball league, a regular pickup spot, a climbing gym, a recurring dinner.
 * If you're struggling, get a therapist. Therapy access is one of the genuine privileges of US healthcare when it works; use it. See [§10](#10-mental-health-and-social-connection).
 
+#### 5.6. Chronic stress
+
+Stress belongs in Foundations, not in the "soft skills" footer.
+
+The INTERHEART study — Yusuf et al., 27,000+ people across 52 countries — assessed nine modifiable risk factors for first myocardial infarction. **Psychosocial stress (work stress, financial stress, major life events, depression) had an odds ratio of 2.67 and a population-attributable risk of 32.5%** — comparable to abdominal obesity and roughly half the PAR of smoking. The nine factors together accounted for 90% of MI risk in men and 94% in women.
+
+* **Source:** Yusuf S, Hawken S, et al. [*Effect of potentially modifiable risk factors associated with myocardial infarction in 52 countries (the INTERHEART study)*](https://pubmed.ncbi.nlm.nih.gov/15364185/). Lancet. 2004.
+
+The distinction that matters is **chronic** vs. acute stress. Acute stress (a deadline, a hard workout, an argument) is normal and often productive — the body's stress response evolved for it. The problem is *sustained* stress that never resolves: weeks of high cortisol with blunted diurnal variation, which drives hypertension, glucose dysregulation, visceral fat deposition, sleep disruption, immune suppression, and a cascade of behavioral effects (overeating, drinking, doomscrolling, social withdrawal).
+
+For programmers specifically, the chronic-stress triggers are well-documented but rarely treated as health issues: on-call rotations that disrupt sleep, perpetual context-switching, post-deploy adrenaline cycles, deadline-driven 60+ hour weeks treated as normal, social isolation from remote work, and the slow-burn of building things that don't ship.
+
+**What actually works:**
+* **Exercise is the most-evidenced anxiolytic.** Both aerobic and resistance training reduce anxiety and depressive symptoms in RCTs with effect sizes comparable to SSRIs in mild-to-moderate cases. This is the highest-leverage stress intervention.
+* **Sleep.** Stress and sleep are bidirectional — poor sleep amplifies stress reactivity, and chronic stress wrecks sleep. Fixing one usually helps the other ([§5.3](#53-sleep)).
+* **Mindfulness / meditation.** MBSR (Mindfulness-Based Stress Reduction) has solid RCT evidence — typical effect: 20–30% reduction in self-reported anxiety, with smaller but real reductions in cortisol. Apps like Waking Up or Headspace are reasonable on-ramps.
+* **Therapy — specifically CBT** for chronic anxiety and depression. Strongest evidence base of any psychological intervention. See [§10](#10-mental-health-and-social-connection).
+* **Social connection.** Acute stressors hurt less when you're not facing them alone — this is one mechanism behind the social-connection mortality effect.
+* **Time off screens.** Both phone and computer. The dose-response for self-reported stress is real, especially with social media.
+* **Hard limits on work.** Most programmers won't say no to one more sprint, one more bug, one more thing — until they crash. The professional ceiling on stress-tolerable hours is ~50/week for sustained periods. Past that, you are not being more productive; you are accruing health debt.
+
+**What doesn't work well enough to bother with:** generic "wellness" products, adaptogens (ashwagandha has mild RCT evidence but smaller than exercise; rhodiola, holy basil, etc. are weaker), CBD for chronic stress (data is thin), expensive retreats. The unsexy stuff above does the actual work.
+
 ---
 
 ### 6. Diet in the US food environment
@@ -208,6 +261,33 @@ Lowest ACM diet pattern in that study: **10–30 g fiber, 14–30% protein, 10�
 
 ![Carbohydrate intake vs mortality — U-shaped curve, Lancet Public Health 2018](https://user-images.githubusercontent.com/2707039/163703985-a2e2f8ac-101a-4f3c-903b-6850507f144b.jpg)
 * **Seed oils.** Currently a contested topic in online nutrition discourse. The strongest meta-analytic data still supports replacing saturated fat with polyunsaturated fat for cardiovascular outcomes; the case against seed oils is largely mechanistic and based on small studies. Don't make this a stress.
+
+#### 6.7. Body composition (not weight)
+
+For active adults, BMI is a misleading metric. Muscular lifters routinely qualify as "overweight" by BMI while being metabolically excellent. What actually matters is **the ratio of fat to lean mass, and especially where the fat is.**
+
+* **Visceral fat is the dangerous fat.** Subcutaneous fat (under the skin, especially on hips/thighs) is metabolically pretty inert. Visceral fat (deep abdominal, wrapped around organs) is metabolically active — it drives insulin resistance, chronic inflammation, and cardiovascular risk independent of total body fat. The "skinny-fat" pattern — lean-looking but sedentary, high visceral fat — is real and metabolically worse than being heavier-but-active.
+* **Body fat percentage** (population-health ranges, not athletic-aesthetics ranges):
+
+  | | Healthy | Concerning | Obese |
+  |---|---|---|---|
+  | Men | 10–22% | >25% | >30% |
+  | Women | 18–32% | >32% | >38% |
+
+* **Waist circumference** is a free, rough proxy for visceral fat. NIH thresholds for elevated cardiometabolic risk: **men >40", women >35"**. Waist-to-height ratio <0.5 is the simpler version of the same idea.
+* **Caveat for athletes:** dropping below ~10% (men) or ~18% (women) year-round costs you sleep, hormonal function, and recovery. Cycle leaner phases if you want competition-level conditioning; don't try to maintain them permanently.
+
+**How to actually measure it:**
+
+| Method | Accuracy | Cost | Notes |
+|---|---|---|---|
+| DEXA scan | Gold standard | $50–$150 | Annual is plenty. Some scanners report visceral fat directly. Also gives bone density. |
+| InBody / BIA at a gym | ±5% | Free–$30 | Useful for trends, not absolutes. Hydration changes the reading. |
+| Skinfold calipers | ±3–5% | $10 | Only if someone experienced uses them on you. |
+| Tape measure (waist) | Rough | Free | Sufficient if you just want to track the trend. |
+| Mirror | Qualitative | Free | Actually useful. You know what fit you looks like. |
+
+* **Source:** Janssen I, Katzmarzyk PT, Ross R. [*Waist circumference and not body mass index explains obesity-related health risk*](https://academic.oup.com/ajcn/article/79/3/379/4690080). Am J Clin Nutr. 2004.
 
 ---
 
@@ -317,7 +397,7 @@ Hot tub bathing shows similar but smaller effects. If you have gym access with a
 
 ### 10. Mental health and social connection
 
-This is the section most longevity content skips, and the one US men in their 20s most need.
+This is the section most longevity content skips. It probably matters as much as anything in §5, and it's the lever programmers most often under-invest in.
 
 **The numbers.** Per the 2010 Holt-Lunstad meta-analysis (148 studies, 308,849 participants), strong social relationships are associated with a **50% higher likelihood of survival** vs. weak ones. The effect is comparable to smoking 15 cigarettes/day and larger than the effect of physical inactivity or obesity. The mechanism is partly behavioral (connected people exercise more, drink less, get medical care earlier) and partly direct (chronic stress, cortisol, inflammation, immune function).
 
@@ -330,6 +410,15 @@ This is the section most longevity content skips, and the one US men in their 20
 * **Phone use audit.** If you average >4 hours/day on your phone, you're crowding out the activities that protect you. The phone itself isn't the problem; it's what it displaces.
 
 **Pessimism is a risk factor; optimism is not protective.** An Australian twin study (Nature Scientific Reports, 2020) followed 50+-year-olds over 20 years and found pessimism scores predicted higher ACM and CVD death (HR 1.13 per 1 SD pessimism); optimism scores did not predict lower mortality. Translation: actively reduce rumination, catastrophizing, and chronic negative self-talk — therapy, exercise, sleep, and social contact all help. Don't aim for fake positivity, just reduce the negative.
+
+**Relationship quality matters more than relationship presence.** The Harvard Study of Adult Development is the longest-running prospective study of adult well-being — started in 1938 with 268 Harvard sophomores, now in its 8th decade. The most cited finding: **satisfaction with relationships at age 50 predicts physical health at age 80 better than cholesterol levels do.** Not the number of relationships, not marital status — the *quality* of close ones. George Vaillant, who ran the study for over 30 years, summarized: "the key to healthy aging is relationships, relationships, relationships."
+
+What this implies practically:
+* **A bad marriage or partnership is worse than no marriage** in some sub-analyses. Investing in repair (or honestly leaving a corrosive one) is a longevity intervention.
+* **The relationships you have at 30 are the soil for the ones you'll need at 50.** Friendships atrophy without recurring contact; the cost of *not* tending them is invisible until much later.
+* **For programmers / knowledge workers:** the career–relationship tradeoff is real. Optimizing exclusively for work in your 20s and 30s and assuming you'll catch up on relationships later is exactly the bet the Harvard data warns against. The two compound in opposite directions.
+
+* **Source:** Vaillant GE. *Triumphs of Experience: The Men of the Harvard Grant Study.* Harvard University Press. 2012. Updated summary: Waldinger R, Schulz M. *The Good Life.* 2023. See also the [Harvard Gazette overview](https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-healthy-and-happy-life/).
 
 ---
 
