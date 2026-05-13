@@ -196,7 +196,8 @@ Lowest ACM diet pattern in that study: **10–30 g fiber, 14–30% protein, 10�
 * **Milk and dairy.** PURE study (~130k people, 21 countries): two daily servings of dairy → **−17% ACM, −23% CVD mortality, −33% stroke risk** vs. none. The "dairy is bad" narrative is not well supported.
 * **Sugar-sweetened drinks.** Each daily 12-oz serving: **+11% ACM**. Two/day: **+21% ACM, +31% CVD mortality**. Includes "sports drinks" with sugar.
 * **Artificially-sweetened ("diet") drinks.** *Worse* than sugar-sweetened in the JAMA Internal Medicine 10-European-country cohort: **+27% ACM** per daily serving. Mechanism unclear; the data is what it is. If you drink a lot of diet soda, treat it as a habit worth phasing down.
-  ![Soft drink consumption vs mortality (JAMA Intern Med, 10-country EU cohort)](https://user-images.githubusercontent.com/2707039/163704346-e7d92e7f-eba5-4673-8f15-3a96782c2e32.png)
+
+![Soft drink consumption vs mortality (JAMA Intern Med, 10-country EU cohort)](https://user-images.githubusercontent.com/2707039/163704346-e7d92e7f-eba5-4673-8f15-3a96782c2e32.png)
 * **Fruit juice.** Per a JAMA sub-journal analysis, each daily 12-oz serving of juice is associated with **+24% ACM**. Eat the fruit, don't drink it.
 * **Alcohol.** Covered in [§5.4](#54-dont-smoke-or-vape). Short version: there is no clearly safe dose; less is better.
 
@@ -204,7 +205,8 @@ Lowest ACM diet pattern in that study: **10–30 g fiber, 14–30% protein, 10�
 
 * **Sodium.** The literature is genuinely split. A 181-country analysis (Eur Heart J 2021) found *positive* correlations between sodium intake and life expectancy, and *negative* correlations with ACM. But low-sodium-salt trials in China and elsewhere show clear cardiovascular benefit. Practical version: if your blood pressure is normal, don't obsess over salt; if it's high, your doctor's advice supersedes any blog post.
 * **Carb ratios.** Lancet Public Health (2018): **~50% of calories from carbs is the longevity sweet spot**. Very low-carb and very high-carb diets both show shorter lifespans. The "carbs are evil" narrative is not consistent with the largest cohort data.
-  ![Carbohydrate intake vs mortality — U-shaped curve](https://user-images.githubusercontent.com/2707039/163703985-a2e2f8ac-101a-4f3c-903b-6850507f144b.jpg)
+
+![Carbohydrate intake vs mortality — U-shaped curve, Lancet Public Health 2018](https://user-images.githubusercontent.com/2707039/163703985-a2e2f8ac-101a-4f3c-903b-6850507f144b.jpg)
 * **Seed oils.** Currently a contested topic in online nutrition discourse. The strongest meta-analytic data still supports replacing saturated fat with polyunsaturated fat for cardiovascular outcomes; the case against seed oils is largely mechanistic and based on small studies. Don't make this a stress.
 
 ---

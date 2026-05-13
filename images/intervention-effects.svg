@@ -1,106 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 540" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
-  <rect width="780" height="540" fill="#ffffff"/>
-  <text x="390" y="34" text-anchor="middle" font-size="19" font-weight="600" fill="#1a1a1a">Modifiable interventions ranked by approximate ACM effect</text>
-  <text x="390" y="56" text-anchor="middle" font-size="12" fill="#777">Effect sizes are approximate, drawn from the cohort studies cited in this guide. Effects do not stack additively.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <rect width="820" height="560" fill="#ffffff"/>
 
-  <!-- Axis -->
-  <line x1="280" y1="86" x2="280" y2="490" stroke="#444" stroke-width="1.3"/>
+  <!-- Title -->
+  <text x="410" y="36" text-anchor="middle" font-size="19" font-weight="600" fill="#1a1a1a">Modifiable interventions ranked by approximate ACM effect</text>
+  <text x="410" y="58" text-anchor="middle" font-size="12" fill="#777">Effect sizes are approximate, drawn from the cohort studies cited in this guide. Effects do not stack additively.</text>
 
-  <!-- gridlines + tick labels along the bottom -->
-  <g font-size="11" fill="#888">
-    <line x1="280" y1="490" x2="740" y2="490" stroke="#444" stroke-width="1.3"/>
-    <line x1="280" y1="86"  x2="740" y2="86"  stroke="#f0f0f0"/>
-    <line x1="372" y1="86"  x2="372" y2="490" stroke="#f0f0f0"/>
-    <line x1="464" y1="86"  x2="464" y2="490" stroke="#f0f0f0"/>
-    <line x1="556" y1="86"  x2="556" y2="490" stroke="#f0f0f0"/>
-    <line x1="648" y1="86"  x2="648" y2="490" stroke="#f0f0f0"/>
-    <line x1="740" y1="86"  x2="740" y2="490" stroke="#f0f0f0"/>
-    <text x="280" y="510" text-anchor="middle">0%</text>
-    <text x="372" y="510" text-anchor="middle">20%</text>
-    <text x="464" y="510" text-anchor="middle">40%</text>
-    <text x="556" y="510" text-anchor="middle">60%</text>
-    <text x="648" y="510" text-anchor="middle">80%</text>
-    <text x="740" y="510" text-anchor="middle">100%</text>
-  </g>
-  <text x="510" y="530" text-anchor="middle" font-size="12" fill="#666">approximate reduction in all-cause mortality (best vs. worst exposure)</text>
+  <!-- Plot region: bars start at x=320, max bar width = 460 (=100%). Each 1% = 4.6px. -->
+  <!-- Rows: 11 rows, top y=90, row height 38 -->
 
-  <!-- Bars. Scale: 100% = 460px. So 1% = 4.6px. -->
-  <!-- Each row: label + bar -->
-
-  <!-- 1. Cardiorespiratory fitness (Mandsager): -80% -->
-  <g>
-    <rect x="280" y="92" width="368" height="26" fill="#2a9d8f"/>
-    <text x="276" y="110" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Cardiorespiratory fitness (elite vs low)</text>
-    <text x="656" y="110" font-size="12" font-weight="600" fill="#1a1a1a">−80%</text>
+  <!-- Gridlines -->
+  <g stroke="#f0f0f0" stroke-width="1">
+    <line x1="320" y1="86" x2="320" y2="498"/>
+    <line x1="412" y1="86" x2="412" y2="498"/>
+    <line x1="504" y1="86" x2="504" y2="498"/>
+    <line x1="596" y1="86" x2="596" y2="498"/>
+    <line x1="688" y1="86" x2="688" y2="498"/>
+    <line x1="780" y1="86" x2="780" y2="498"/>
   </g>
 
-  <!-- 2. UPF intake (top vs bottom quartile): -62% (i.e., heavy UPF eaters have +62% vs low; cutting it is ~−38% from heavy baseline, but framing here is top exposure improvement of -38%). I'll use -38% for the realistic cut. -->
+  <!-- Baseline -->
+  <line x1="320" y1="498" x2="780" y2="498" stroke="#444" stroke-width="1.3"/>
+
+  <!-- X-axis labels -->
+  <g font-size="11" fill="#888" text-anchor="middle">
+    <text x="320" y="518">0%</text>
+    <text x="412" y="518">20%</text>
+    <text x="504" y="518">40%</text>
+    <text x="596" y="518">60%</text>
+    <text x="688" y="518">80%</text>
+    <text x="780" y="518">100%</text>
+  </g>
+  <text x="550" y="540" text-anchor="middle" font-size="12" fill="#666">approximate reduction in all-cause mortality (best vs. worst exposure)</text>
+
+  <!-- Bars: x=320 start, height=24, row-spacing 38 (row y center = 92, 130, 168, ...) -->
+  <!-- All bars: fill #2a9d8f, label outside in #1a1a1a -->
+
+  <!-- Row 1: Cardiorespiratory fitness, -80% → width 368 -->
   <g>
-    <rect x="280" y="128" width="175" height="26" fill="#2a9d8f"/>
-    <text x="276" y="146" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Cut ultra-processed food (heavy → low)</text>
-    <text x="463" y="146" font-size="12" font-weight="600" fill="#1a1a1a">−38%</text>
+    <text x="316" y="111" text-anchor="end" font-size="13" fill="#1a1a1a">Cardiorespiratory fitness (elite vs low)</text>
+    <rect x="320" y="96" width="368" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="696" y="113" font-size="13" font-weight="600" fill="#1a1a1a">−80%</text>
   </g>
 
-  <!-- 3. Smoking cessation: -50% (current smoker vs never; the smoker carries ~+54% ACM) -->
+  <!-- Row 2: Don't smoke, -50% → width 230 -->
   <g>
-    <rect x="280" y="164" width="230" height="26" fill="#2a9d8f"/>
-    <text x="276" y="182" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Don't smoke (vs heavy smoker)</text>
-    <text x="518" y="182" font-size="12" font-weight="600" fill="#1a1a1a">−50%</text>
+    <text x="316" y="149" text-anchor="end" font-size="13" fill="#1a1a1a">Don't smoke (vs heavy smoker)</text>
+    <rect x="320" y="134" width="230" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="558" y="151" font-size="13" font-weight="600" fill="#1a1a1a">−50%</text>
   </g>
 
-  <!-- 4. Walking 8k vs 4k: -51% -->
+  <!-- Row 3: Walk 8k vs 4k, -51% → width 235 -->
   <g>
-    <rect x="280" y="200" width="235" height="26" fill="#2a9d8f"/>
-    <text x="276" y="218" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Walk 8k vs 4k steps/day</text>
-    <text x="523" y="218" font-size="12" font-weight="600" fill="#1a1a1a">−51%</text>
+    <text x="316" y="187" text-anchor="end" font-size="13" fill="#1a1a1a">Walk 8k vs 4k steps/day</text>
+    <rect x="320" y="172" width="235" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="563" y="189" font-size="13" font-weight="600" fill="#1a1a1a">−51%</text>
   </g>
 
-  <!-- 5. Sauna 4-7x/wk vs 1x/wk: -40% -->
+  <!-- Row 4: Sauna, -40% → width 184 -->
   <g>
-    <rect x="280" y="236" width="184" height="26" fill="#2a9d8f"/>
-    <text x="276" y="254" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Sauna 4–7×/week</text>
-    <text x="472" y="254" font-size="12" font-weight="600" fill="#1a1a1a">−40%</text>
+    <text x="316" y="225" text-anchor="end" font-size="13" fill="#1a1a1a">Sauna 4–7×/week</text>
+    <rect x="320" y="210" width="184" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="512" y="227" font-size="13" font-weight="600" fill="#1a1a1a">−40%</text>
   </g>
 
-  <!-- 6. Glucosamine regular use: -39% -->
+  <!-- Row 5: Glucosamine, -39% → width 180 -->
   <g>
-    <rect x="280" y="272" width="180" height="26" fill="#2a9d8f"/>
-    <text x="276" y="290" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Glucosamine (regular use)</text>
-    <text x="468" y="290" font-size="12" font-weight="600" fill="#1a1a1a">−39%</text>
+    <text x="316" y="263" text-anchor="end" font-size="13" fill="#1a1a1a">Glucosamine (regular use)</text>
+    <rect x="320" y="248" width="180" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="508" y="265" font-size="13" font-weight="600" fill="#1a1a1a">−39%</text>
   </g>
 
-  <!-- 7. Strong social ties: -33% (OR 1.50 strong vs weak → roughly -33%) -->
+  <!-- Row 6: Cut UPF, -38% → width 175 -->
   <g>
-    <rect x="280" y="308" width="152" height="26" fill="#2a9d8f"/>
-    <text x="276" y="326" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Strong social relationships</text>
-    <text x="440" y="326" font-size="12" font-weight="600" fill="#1a1a1a">−33%</text>
+    <text x="316" y="301" text-anchor="end" font-size="13" fill="#1a1a1a">Cut ultra-processed food (heavy → low)</text>
+    <rect x="320" y="286" width="175" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="503" y="303" font-size="13" font-weight="600" fill="#1a1a1a">−38%</text>
   </g>
 
-  <!-- 8. Coffee 3.5 cups/day: -15% -->
+  <!-- Row 7: Social ties, -33% → width 152 -->
   <g>
-    <rect x="280" y="344" width="69" height="26" fill="#a8c686"/>
-    <text x="276" y="362" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Coffee, ~3.5 cups/day</text>
-    <text x="357" y="362" font-size="12" font-weight="600" fill="#1a1a1a">−15%</text>
+    <text x="316" y="339" text-anchor="end" font-size="13" fill="#1a1a1a">Strong social relationships</text>
+    <rect x="320" y="324" width="152" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="480" y="341" font-size="13" font-weight="600" fill="#1a1a1a">−33%</text>
   </g>
 
-  <!-- 9. Resistance training 40 min/wk: -17% -->
+  <!-- Row 8: Brushing teeth, -25% → width 115 -->
   <g>
-    <rect x="280" y="380" width="78" height="26" fill="#a8c686"/>
-    <text x="276" y="398" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Resistance training ~40 min/wk</text>
-    <text x="366" y="398" font-size="12" font-weight="600" fill="#1a1a1a">−17%</text>
+    <text x="316" y="377" text-anchor="end" font-size="13" fill="#1a1a1a">Brushing teeth (vs rarely)</text>
+    <rect x="320" y="362" width="115" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="443" y="379" font-size="13" font-weight="600" fill="#1a1a1a">−25%</text>
   </g>
 
-  <!-- 10. Dairy 2 servings/day: -17% -->
+  <!-- Row 9: Resistance training 40 min/wk, -17% → width 78 -->
   <g>
-    <rect x="280" y="416" width="78" height="26" fill="#a8c686"/>
-    <text x="276" y="434" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Dairy, ~2 servings/day</text>
-    <text x="366" y="434" font-size="12" font-weight="600" fill="#1a1a1a">−17%</text>
+    <text x="316" y="415" text-anchor="end" font-size="13" fill="#1a1a1a">Resistance training ~40 min/wk</text>
+    <rect x="320" y="400" width="78" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="406" y="417" font-size="13" font-weight="600" fill="#1a1a1a">−17%</text>
   </g>
 
-  <!-- 11. Brushing teeth (vs rarely): -25% -->
+  <!-- Row 10: Dairy 2 svgs/day, -17% → width 78 -->
   <g>
-    <rect x="280" y="452" width="115" height="26" fill="#a8c686"/>
-    <text x="276" y="470" text-anchor="end" font-size="13" font-weight="500" fill="#1a1a1a">Brushing teeth (vs rarely)</text>
-    <text x="403" y="470" font-size="12" font-weight="600" fill="#1a1a1a">−25%</text>
+    <text x="316" y="453" text-anchor="end" font-size="13" fill="#1a1a1a">Dairy, ~2 servings/day</text>
+    <rect x="320" y="438" width="78" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="406" y="455" font-size="13" font-weight="600" fill="#1a1a1a">−17%</text>
+  </g>
+
+  <!-- Row 11: Coffee, -15% → width 69 -->
+  <g>
+    <text x="316" y="491" text-anchor="end" font-size="13" fill="#1a1a1a">Coffee, ~3.5 cups/day</text>
+    <rect x="320" y="476" width="69" height="24" fill="#2a9d8f" rx="3"/>
+    <text x="397" y="493" font-size="13" font-weight="600" fill="#1a1a1a">−15%</text>
   </g>
 </svg>

@@ -3,11 +3,21 @@
   <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">Resistance training dose vs all-cause mortality reduction</text>
   <text x="360" y="55" text-anchor="middle" font-size="12" fill="#777">Momma 2022, BJSM · meta-analysis · n = 263,058 · non-linear dose-response</text>
 
+  <!-- Plot region: x [100..680] = 580px wide for 0..200 min/week, so 1 min = 2.9px -->
+  <!-- y [80..310] = 230px tall for 0..20% reduction, so 1% = 11.5px -->
+  <!-- x(min) = 100 + min * 2.9 -->
+  <!-- y(pct) = 310 - pct * 11.5 -->
+
+  <!-- Sweet-spot band: min 30..60 -->
+  <rect x="187" y="80" width="87" height="230" fill="#2a9d8f" fill-opacity="0.08"/>
+  <text x="231" y="98" text-anchor="middle" font-size="10" fill="#2a9d8f" font-weight="600">SWEET SPOT</text>
+  <text x="231" y="111" text-anchor="middle" font-size="10" fill="#2a9d8f">30–60 min/wk</text>
+
   <!-- Axes -->
   <line x1="100" y1="80" x2="100" y2="310" stroke="#444" stroke-width="1.3"/>
   <line x1="100" y1="310" x2="680" y2="310" stroke="#444" stroke-width="1.3"/>
 
-  <!-- Y axis: 0 to 20% reduction; 230 px plot height. 1% = 11.5px. y(reduction) = 310 - reduction*11.5 -->
+  <!-- Y-axis gridlines and ticks -->
   <g font-size="11" fill="#888">
     <line x1="100" y1="252" x2="680" y2="252" stroke="#f1f1f1"/>
     <text x="92" y="256" text-anchor="end">5%</text>
@@ -20,7 +30,7 @@
     <text x="92" y="314" text-anchor="end">0</text>
   </g>
 
-  <!-- X axis: 0 to 200 min/week. 580 px wide, x=100 to x=680. 1 min = 2.9 px. -->
+  <!-- X-axis ticks -->
   <g font-size="11" fill="#888" text-anchor="middle">
     <line x1="158" y1="310" x2="158" y2="314" stroke="#444"/>
     <text x="158" y="328">20</text>
@@ -44,47 +54,33 @@
     <text x="680" y="328">200</text>
   </g>
 
-  <!-- Sweet spot band: 30-60 min, x = 100 + 30*2.9 = 187 to 100 + 60*2.9 = 274 -->
-  <rect x="187" y="80" width="87" height="230" fill="#2a9d8f" fill-opacity="0.08"/>
-  <text x="231" y="98" text-anchor="middle" font-size="10" fill="#2a9d8f" font-weight="600">SWEET SPOT</text>
-  <text x="231" y="111" text-anchor="middle" font-size="10" fill="#2a9d8f">30–60 min/wk</text>
-
-  <!-- Curve. Reduction values:
-       0 min: 0%
-       10: ~5
-       20: ~9
-       30: ~13
-       40: ~17 (peak)
-       50: ~16
-       60: ~15
-       80: ~13
-       100: ~12
-       120: ~11
-       140: ~11
-       160: ~10
-       180: ~10
-       200: ~10
-
-       x(min) = 100 + min*2.9
-       y(%) = 310 - pct*11.5
+  <!-- Curve. Points (min, pct) → (x, y):
+       (0, 0)      → (100, 310)
+       (10, 4.5)   → (129, 258.25)
+       (20, 9)     → (158, 206.5)
+       (30, 14)    → (187, 149)
+       (35, 16.2)  → (201.5, 123.7)
+       (40, 17)    → (216, 114.5)   ← peak
+       (45, 16.5)  → (230.5, 120.25)
+       (50, 15.5)  → (245, 131.75)
+       (60, 14.0)  → (274, 149)
+       (75, 12.7)  → (317.5, 164)
+       (90, 11.8)  → (361, 174.3)
+       (120, 11.0) → (448, 183.5)
+       (150, 10.5) → (535, 189.25)
+       (200, 10.0) → (680, 195)
   -->
-  <path d="M 100,310
-           Q 130,275 158,253
-           Q 187,224 216,195
-           Q 245,148 274,142
-           Q 332,170 390,184
-           Q 448,194 506,196
-           Q 564,196 622,196
-           L 680,196"
-        fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polyline points="100,310 129,258 158,207 187,149 202,124 216,114.5 231,120 245,132 274,149 318,164 361,174 448,184 535,189 680,195"
+            fill="none" stroke="#2a9d8f" stroke-width="2.5"
+            stroke-linejoin="round" stroke-linecap="round"/>
 
-  <!-- Peak marker -->
-  <circle cx="216" cy="115.5" r="5" fill="#2a9d8f"/>
+  <!-- Peak marker (now actually on the curve) -->
+  <circle cx="216" cy="114.5" r="5" fill="#2a9d8f"/>
+  <line x1="216" y1="119.5" x2="216" y2="310" stroke="#2a9d8f" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
   <text x="232" y="111" font-size="12" font-weight="600" fill="#1a1a1a">peak: −17% at ~40 min/wk</text>
 
-  <!-- Y axis label -->
+  <!-- Axis labels -->
   <text x="34" y="195" text-anchor="middle" font-size="12" fill="#666" transform="rotate(-90 34 195)">ACM reduction</text>
-  <!-- X axis label -->
   <text x="390" y="358" text-anchor="middle" font-size="12" fill="#666">Muscle-strengthening activity (minutes / week)</text>
 
   <!-- Annotation -->
