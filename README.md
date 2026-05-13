@@ -375,6 +375,13 @@ This one matters especially for programmers, because the job structurally pushes
 
 Breaking up sitting matters as much as total time. Every 30–60 minutes, stand for 2–3 minutes. Walking 1:1s, standing during code review, a sit-stand desk, and a daily walk between deep-work blocks all help. Treat your default posture during meetings as walking or standing, not seated.
 
+**When to use a sit-stand desk.** There's no strong morning-vs-afternoon effect. The pattern that matters is **alternation throughout the day, with priority on the post-meal window.**
+
+* **The single highest-leverage moment is right after meals.** Standing — or better, a 5–15 minute walk — within an hour of eating measurably blunts the post-meal glucose spike. Stand or walk after breakfast and lunch in particular.
+* **Alternate in short cycles, not long blocks.** Aim for a roughly **1:1 to 3:1 sit-to-stand ratio**. The commonly-cited *20-8-2 rule* is a reasonable starting point: 20 minutes sitting, 8 minutes standing, 2 minutes light movement per half hour. Standing for 2+ hours straight tends to cause foot, knee, and lower-back pain — which is the most common reason people abandon standing desks.
+* **Match position to task.** Stand for meetings, standups, 1:1s, code review, email, anything with frequent context switches. Sit for deep focused work, long debugging sessions, or anything requiring careful precision typing.
+* **Build up gradually.** If you're new to standing, start with 30–60 minutes/day total and ramp over a few weeks. Going straight to 4+ hours of standing is a recipe for back pain and a desk that gets locked in the sitting position permanently.
+
 #### 9.3. Sun exposure
 
 A 26-year Danish cohort found that more sun exposure correlated with longer life — even people who developed skin cancer from over-exposure lived an average of **6 years longer** than the general population. The proposed mechanism is vitamin D + nitric oxide release + circadian benefit; the skin cancer cost is real but smaller in mortality terms than the cardiovascular and metabolic upside.
