@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">Daily steps vs all-cause mortality</text>
+  <text x="360" y="55" text-anchor="middle" font-size="12" fill="#777">Saint-Maurice 2020, JAMA · NHANES, US adults · n = 4,840 · 10.1-yr mean follow-up</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="80" x2="100" y2="310" stroke="#444" stroke-width="1.3"/>
+  <line x1="100" y1="310" x2="680" y2="310" stroke="#444" stroke-width="1.3"/>
+
+  <!-- y-axis: HR 0–1.2, plot 230px, 1 HR = 192px. Actually let's go 0-1.0 -->
+  <!-- HR 1.0 → top. Scale: HR 0-1.0 → plot height 230 px, 1 HR = 230px. y=310 - HR*230 -->
+  <g font-size="11" fill="#888">
+    <line x1="100" y1="264" x2="680" y2="264" stroke="#f1f1f1"/>
+    <text x="92" y="268" text-anchor="end">0.2</text>
+    <line x1="100" y1="218" x2="680" y2="218" stroke="#f1f1f1"/>
+    <text x="92" y="222" text-anchor="end">0.4</text>
+    <line x1="100" y1="172" x2="680" y2="172" stroke="#f1f1f1"/>
+    <text x="92" y="176" text-anchor="end">0.6</text>
+    <line x1="100" y1="126" x2="680" y2="126" stroke="#f1f1f1"/>
+    <text x="92" y="130" text-anchor="end">0.8</text>
+    <line x1="100" y1="80"  x2="680" y2="80"  stroke="#f1f1f1"/>
+    <text x="92" y="84"  text-anchor="end">1.0</text>
+    <text x="92" y="314" text-anchor="end">0</text>
+  </g>
+
+  <!-- Bars. 3 bars: 4000 (HR 1.00), 8000 (0.49), 12000 (0.35) -->
+  <!-- HR 1.00 → y=80, height=230 -->
+  <!-- HR 0.49 → y=197, height=113 -->
+  <!-- HR 0.35 → y=230, height=80 -->
+  <rect x="170" y="80"  width="120" height="230" fill="#e76f51"/>
+  <rect x="330" y="197" width="120" height="113" fill="#e9c46a"/>
+  <rect x="490" y="230" width="120" height="80"  fill="#2a9d8f"/>
+
+  <g font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="middle">
+    <text x="230" y="72">1.00</text>
+    <text x="390" y="189">0.49</text>
+    <text x="550" y="222">0.35</text>
+  </g>
+
+  <g font-size="12" fill="#333" text-anchor="middle">
+    <text x="230" y="332">4,000 steps</text>
+    <text x="230" y="348" fill="#888" font-size="11">(reference)</text>
+    <text x="390" y="332">8,000 steps</text>
+    <text x="390" y="348" fill="#888" font-size="11">−51% mortality</text>
+    <text x="550" y="332">12,000 steps</text>
+    <text x="550" y="348" fill="#888" font-size="11">−65% mortality</text>
+  </g>
+
+  <!-- Y-axis label -->
+  <text x="34" y="195" text-anchor="middle" font-size="12" fill="#666" transform="rotate(-90 34 195)">HR for all-cause mortality</text>
+
+  <!-- Annotation -->
+  <text x="390" y="380" text-anchor="middle" font-size="11" fill="#999" font-style="italic">Step intensity (cadence) did not significantly improve on raw count.</text>
+</svg>

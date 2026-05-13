@@ -55,6 +55,8 @@ An evidence-based summary of the interventions that actually move **all-cause mo
 
 ### 4. The action list (TL;DR)
 
+![Modifiable interventions ranked by approximate ACM effect](images/intervention-effects.svg)
+
 If you do nothing else with this guide, do these:
 
 1. **Become aerobically fit.** Run, bike, row, or swim such that you can comfortably hold Zone 2 for 45+ minutes, and can hit hard intervals once a week. This single factor is the strongest ACM predictor we have. ([§5.1](#51-cardiorespiratory-fitness-vo2max))
@@ -80,6 +82,8 @@ In a 2018 study of **122,007 patients** undergoing exercise treadmill testing, w
 
 * **Source:** Mandsager K, et al. [*Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing*](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2707428). JAMA Netw Open. 2018.
 
+![Cardiorespiratory fitness vs all-cause mortality](images/fitness-mortality.svg)
+
 Meta-analytic data from Kodama et al. (JAMA, 2009): **every 1-MET increase in fitness reduces ACM by ~13% and CVD mortality by ~15%.** A 1-MET difference is the difference between being able to jog a 10-min mile vs. an 11-min mile.
 
 **What to do:**
@@ -92,6 +96,8 @@ Meta-analytic data from Kodama et al. (JAMA, 2009): **every 1-MET increase in fi
 In a 2022 meta-analysis of **16 cohort studies and 1.5+ million participants**, muscle-strengthening activities were associated with **10–17% lower ACM, CVD, cancer, diabetes, and lung-cancer mortality**. The dose-response curve is non-linear and peaks at roughly **30–60 minutes per week**, with the lowest ACM at **~40 min/week**. More is fine — the benefit just plateaus.
 
 * **Source:** Momma H, et al. [*Muscle-strengthening activities are associated with lower risk of all-cause, cancer and cardiovascular disease mortality*](https://pmc.ncbi.nlm.nih.gov/articles/PMC9209691/). Br J Sports Med. 2022.
+
+![Resistance training dose-response](images/strength-dose-response.svg)
 
 Note that this "30–60 minutes" is *time spent lifting*, not time at the gym. Two 45-minute strength sessions per week, mostly compound lifts, hits the target with plenty of room to spare.
 
@@ -175,6 +181,12 @@ The boring advice is the right advice: eat a lot of plants. **200 g/day of fresh
 
 **Target:** at least one serving of vegetables at each main meal, one or two fruits per day, and ~30 g of fiber per day (the average US adult gets ~15). Beans, lentils, oats, berries, broccoli, and whole grains are the easy fiber wins in a US grocery store.
 
+For context on how macro intakes relate to mortality, the UK Biobank prospective cohort (Ho et al., BMJ 2020) found:
+
+![Nutrient intake vs all-cause mortality, UK Biobank](https://user-images.githubusercontent.com/2707039/163702022-8c2bfea9-ed5d-4fe0-8ead-e8740014b92b.jpg)
+
+Lowest ACM diet pattern in that study: **10–30 g fiber, 14–30% protein, 10–25% monounsaturated fat, 5–7% polyunsaturated fat, 20–30% starch.** Translation in plain language: lots of fiber, plenty of protein, olive oil and nuts for fat, modest grains.
+
 #### 6.5. Drinks
 
 * **Coffee.** A 40-study meta-analysis (~3.85M people) finds non-linear dose-response: **~3.5 cups/day yields the lowest ACM (RR 0.85)**. Diminishing returns after that. Decaf and caffeinated both show benefit. Don't add sugary creamers and undo the effect.
@@ -182,6 +194,7 @@ The boring advice is the right advice: eat a lot of plants. **200 g/day of fresh
 * **Milk and dairy.** PURE study (~130k people, 21 countries): two daily servings of dairy → **−17% ACM, −23% CVD mortality, −33% stroke risk** vs. none. The "dairy is bad" narrative is not well supported.
 * **Sugar-sweetened drinks.** Each daily 12-oz serving: **+11% ACM**. Two/day: **+21% ACM, +31% CVD mortality**. Includes "sports drinks" with sugar.
 * **Artificially-sweetened ("diet") drinks.** *Worse* than sugar-sweetened in the JAMA Internal Medicine 10-European-country cohort: **+27% ACM** per daily serving. Mechanism unclear; the data is what it is. If you drink a lot of diet soda, treat it as a habit worth phasing down.
+  ![Soft drink consumption vs mortality (JAMA Intern Med, 10-country EU cohort)](https://user-images.githubusercontent.com/2707039/163704346-e7d92e7f-eba5-4673-8f15-3a96782c2e32.png)
 * **Fruit juice.** Per a JAMA sub-journal analysis, each daily 12-oz serving of juice is associated with **+24% ACM**. Eat the fruit, don't drink it.
 * **Alcohol.** Covered in [§5.4](#54-dont-smoke-or-vape). Short version: there is no clearly safe dose; less is better.
 
@@ -189,6 +202,7 @@ The boring advice is the right advice: eat a lot of plants. **200 g/day of fresh
 
 * **Sodium.** The literature is genuinely split. A 181-country analysis (Eur Heart J 2021) found *positive* correlations between sodium intake and life expectancy, and *negative* correlations with ACM. But low-sodium-salt trials in China and elsewhere show clear cardiovascular benefit. Practical version: if your blood pressure is normal, don't obsess over salt; if it's high, your doctor's advice supersedes any blog post.
 * **Carb ratios.** Lancet Public Health (2018): **~50% of calories from carbs is the longevity sweet spot**. Very low-carb and very high-carb diets both show shorter lifespans. The "carbs are evil" narrative is not consistent with the largest cohort data.
+  ![Carbohydrate intake vs mortality — U-shaped curve](https://user-images.githubusercontent.com/2707039/163703985-a2e2f8ac-101a-4f3c-903b-6850507f144b.jpg)
 * **Seed oils.** Currently a contested topic in online nutrition discourse. The strongest meta-analytic data still supports replacing saturated fat with polyunsaturated fat for cardiovascular outcomes; the case against seed oils is largely mechanistic and based on small studies. Don't make this a stress.
 
 ---
@@ -265,6 +279,8 @@ The Saint-Maurice 2020 JAMA paper (4,840 US adults, NHANES, mean 10.1-year follo
 * 12,000 vs. 4,000 steps/day → **HR 0.35** (65% lower ACM)
 
 * **Source:** Saint-Maurice PF, et al. [*Association of Daily Step Count and Step Intensity With Mortality Among US Adults*](https://jamanetwork.com/journals/jama/fullarticle/2763292). JAMA. 2020.
+
+![Daily steps vs all-cause mortality](images/steps-mortality.svg)
 
 Step intensity (cadence) didn't add much above raw count. **Target 8,000+ steps/day** as a floor; this is *separate* from your structured training. Walking the dog, walking to class, parking far, taking stairs.
 

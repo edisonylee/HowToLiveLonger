@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">Resistance training dose vs all-cause mortality reduction</text>
+  <text x="360" y="55" text-anchor="middle" font-size="12" fill="#777">Momma 2022, BJSM · meta-analysis · n = 263,058 · non-linear dose-response</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="80" x2="100" y2="310" stroke="#444" stroke-width="1.3"/>
+  <line x1="100" y1="310" x2="680" y2="310" stroke="#444" stroke-width="1.3"/>
+
+  <!-- Y axis: 0 to 20% reduction; 230 px plot height. 1% = 11.5px. y(reduction) = 310 - reduction*11.5 -->
+  <g font-size="11" fill="#888">
+    <line x1="100" y1="252" x2="680" y2="252" stroke="#f1f1f1"/>
+    <text x="92" y="256" text-anchor="end">5%</text>
+    <line x1="100" y1="195" x2="680" y2="195" stroke="#f1f1f1"/>
+    <text x="92" y="199" text-anchor="end">10%</text>
+    <line x1="100" y1="137" x2="680" y2="137" stroke="#f1f1f1"/>
+    <text x="92" y="141" text-anchor="end">15%</text>
+    <line x1="100" y1="80" x2="680" y2="80" stroke="#f1f1f1"/>
+    <text x="92" y="84" text-anchor="end">20%</text>
+    <text x="92" y="314" text-anchor="end">0</text>
+  </g>
+
+  <!-- X axis: 0 to 200 min/week. 580 px wide, x=100 to x=680. 1 min = 2.9 px. -->
+  <g font-size="11" fill="#888" text-anchor="middle">
+    <line x1="158" y1="310" x2="158" y2="314" stroke="#444"/>
+    <text x="158" y="328">20</text>
+    <line x1="216" y1="310" x2="216" y2="314" stroke="#444"/>
+    <text x="216" y="328">40</text>
+    <line x1="274" y1="310" x2="274" y2="314" stroke="#444"/>
+    <text x="274" y="328">60</text>
+    <line x1="332" y1="310" x2="332" y2="314" stroke="#444"/>
+    <text x="332" y="328">80</text>
+    <line x1="390" y1="310" x2="390" y2="314" stroke="#444"/>
+    <text x="390" y="328">100</text>
+    <line x1="448" y1="310" x2="448" y2="314" stroke="#444"/>
+    <text x="448" y="328">120</text>
+    <line x1="506" y1="310" x2="506" y2="314" stroke="#444"/>
+    <text x="506" y="328">140</text>
+    <line x1="564" y1="310" x2="564" y2="314" stroke="#444"/>
+    <text x="564" y="328">160</text>
+    <line x1="622" y1="310" x2="622" y2="314" stroke="#444"/>
+    <text x="622" y="328">180</text>
+    <line x1="680" y1="310" x2="680" y2="314" stroke="#444"/>
+    <text x="680" y="328">200</text>
+  </g>
+
+  <!-- Sweet spot band: 30-60 min, x = 100 + 30*2.9 = 187 to 100 + 60*2.9 = 274 -->
+  <rect x="187" y="80" width="87" height="230" fill="#2a9d8f" fill-opacity="0.08"/>
+  <text x="231" y="98" text-anchor="middle" font-size="10" fill="#2a9d8f" font-weight="600">SWEET SPOT</text>
+  <text x="231" y="111" text-anchor="middle" font-size="10" fill="#2a9d8f">30–60 min/wk</text>
+
+  <!-- Curve. Reduction values:
+       0 min: 0%
+       10: ~5
+       20: ~9
+       30: ~13
+       40: ~17 (peak)
+       50: ~16
+       60: ~15
+       80: ~13
+       100: ~12
+       120: ~11
+       140: ~11
+       160: ~10
+       180: ~10
+       200: ~10
+
+       x(min) = 100 + min*2.9
+       y(%) = 310 - pct*11.5
+  -->
+  <path d="M 100,310
+           Q 130,275 158,253
+           Q 187,224 216,195
+           Q 245,148 274,142
+           Q 332,170 390,184
+           Q 448,194 506,196
+           Q 564,196 622,196
+           L 680,196"
+        fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Peak marker -->
+  <circle cx="216" cy="115.5" r="5" fill="#2a9d8f"/>
+  <text x="232" y="111" font-size="12" font-weight="600" fill="#1a1a1a">peak: −17% at ~40 min/wk</text>
+
+  <!-- Y axis label -->
+  <text x="34" y="195" text-anchor="middle" font-size="12" fill="#666" transform="rotate(-90 34 195)">ACM reduction</text>
+  <!-- X axis label -->
+  <text x="390" y="358" text-anchor="middle" font-size="12" fill="#666">Muscle-strengthening activity (minutes / week)</text>
+
+  <!-- Annotation -->
+  <text x="390" y="384" text-anchor="middle" font-size="11" fill="#999" font-style="italic">Benefit plateaus past ~60 min/week. More is fine, but doesn't add more longevity.</text>
+</svg>
