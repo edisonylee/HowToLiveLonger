@@ -1,12 +1,14 @@
-# How to Live Longer — A guide for active US adults
+# How to Live Longer — A programmer's guide
 
 [![MetaGPT](https://img.shields.io/badge/Work%20Less-MetaGPT-blue)](https://github.com/geekan/MetaGPT)
 
 An evidence-based summary of the interventions that actually move **all-cause mortality (ACM)** — the probability of dying from any cause in a given period. ACM is the metric academic studies care most about because it can't be gamed by shifting deaths between disease categories.
 
-**Who this is for.** US adults, especially in their 20s and 30s, who play sports, lift weights, or otherwise take training seriously. The lens is **longevity-first, athletic-aware**: the goal is more years on the clock, but every recommendation should be compatible with — and ideally complementary to — being a stronger, faster, more durable athlete.
+**Who this is for.** US-based programmers and other knowledge workers, roughly **ages 20 through late 40s**, who want to live longer without giving up the things that make life worth living. The lens is **longevity-first, athletic-aware** — the goal is more years on the clock, but every recommendation should be compatible with training hard, playing intensive sports, lifting weights, or otherwise staying physically engaged. If you're at the older end of that range, the picture shifts a bit (cardiovascular screening becomes more urgent, sarcopenia prevention starts to matter, recovery takes longer); the core levers stay the same.
 
-**What's different about this guide.** Most longevity content (including the [original Chinese-language guide](https://github.com/geekan/HowToLiveLonger) this is forked from) is calibrated for middle-aged readers. That makes it light on the things that matter most in your 20s and 30s — cardiorespiratory fitness, resistance training, social connection, injury prevention — and heavy on things that don't yet (metformin, weight loss from obesity, age-72+ housework). This version reorders the priorities, swaps in US-relevant evidence, and adds the sections most missing from the original.
+**What's different about this guide.** Most longevity content (including the [original Chinese-language guide](https://github.com/geekan/HowToLiveLonger) this is forked from) is calibrated for sedentary, middle-aged readers. That makes it light on the things that matter most for active adults — cardiorespiratory fitness, resistance training, social connection, injury prevention — and heavy on things most readers in this age band don't need yet (metformin, weight loss from obesity, age-72+ housework). This version reorders the priorities, swaps in US-relevant evidence, and adds the sections most missing from the original.
+
+**Why programmers specifically?** Because the lifestyle that comes with the job is rough on longevity by default — long sedentary hours, irregular sleep, optimization of work and abandonment of everything else, screen-mediated socialization, easy access to delivery food. None of this is fatal individually; together it stacks. The good news: programmers tend to like systems thinking, optimizing variables, and finding leverage — exactly the disposition this guide rewards.
 
 ---
 
@@ -68,7 +70,7 @@ If you do nothing else with this guide, do these:
 7. **Eat enough protein.** As an active adult, target 1.4–2.0 g/kg/day (≈0.6–0.9 g/lb), not the sedentary RDA of 0.8 g/kg. ([§6](#6-diet-in-the-us-food-environment))
 8. **Train and play in ways that don't blow out your joints.** A torn ACL at 21 means osteoarthritis at 40. Knee/ankle health compounds for decades. ([§8](#8-sport-specific-injury-prevention))
 
-Note on age-specific context: in your 20s, the literal #1 cause of death in the US is unintentional injury, with motor-vehicle crashes and overdose dominating. Seatbelts, sober driving, and avoiding fentanyl-contaminated drugs probably save more expected years than any single dietary intervention in this guide. The rest of this document addresses the chronic-disease risk that catches up with you later — but don't lose sight of the boring stuff.
+Note on what changes by decade. In your 20s and into your 30s, the #1 cause of death in the US is unintentional injury — motor-vehicle crashes and overdose dominate. Seatbelts, sober driving, and avoiding fentanyl-contaminated drugs probably save more expected years than any dietary intervention in this guide. By your late 30s and 40s, the curve crosses over: cancer and cardiovascular disease overtake accidents, and the foundations you've been building (or not) start to show. The interventions below address both — but at the younger end, don't lose sight of the boring stuff, and at the older end, get your numbers checked ([§12.2](#122-genetics-and-family-history)).
 
 ---
 
@@ -89,7 +91,7 @@ Meta-analytic data from Kodama et al. (JAMA, 2009): **every 1-MET increase in fi
 **What to do:**
 * **Zone 2 cardio, 2–4 hours per week.** Easy steady-state — you should be able to hold a conversation, just barely. Running, cycling, rowing, brisk hiking all work. This builds your aerobic base and mitochondrial density.
 * **One harder session per week.** 4×4-minute intervals at ~90% max HR (the "Norwegian 4×4" protocol) is the most studied VO2max-builder. Hill sprints, threshold runs, or pickup-basketball-with-intent all qualify.
-* **For basketball players specifically:** pickup games are *not* substitutes for structured cardio. Game pace is intermittent and skill-driven; you need dedicated Zone 2 + interval work to build the engine that lets you actually play your way through 4 quarters at full intensity.
+* **For intensive sports (basketball, soccer, tennis, ultimate, climbing, MMA, etc.):** the games themselves are *not* substitutes for structured cardio. Game pace is intermittent and skill-driven; you need dedicated Zone 2 + interval work to build the aerobic engine that lets you actually perform at full intensity for the full duration.
 
 #### 5.2. Resistance training
 
@@ -245,15 +247,16 @@ NHANES analysis (16,686 US adults, median 107-month follow-up): regular glucosam
 
 ### 8. Sport-specific injury prevention
 
-This is the section the original guide was missing, and it's the one that matters most if your training profile looks like yours.
+This is the section the original guide was missing, and the one that matters most if your training involves anything cutting, pivoting, jumping, or sprinting.
 
-**Why it matters for longevity, not just performance.** A torn ACL at 21 has a roughly **40–80% chance of progressing to symptomatic knee osteoarthritis within 10–20 years**, regardless of surgical outcome. Multiple ankle sprains compound similarly into chronic instability and early arthritis. The injuries you prevent in your 20s are the years you gain in your 50s and 60s — both directly (mobility, exercise capacity preserved) and indirectly (sustained ability to exercise, which is the biggest longevity lever of all per [§5](#5-foundations-the-biggest-levers)).
+**Why it matters for longevity, not just performance.** A torn ACL in your 20s or 30s has a roughly **40–80% chance of progressing to symptomatic knee osteoarthritis within 10–20 years**, regardless of surgical outcome. Multiple ankle sprains compound similarly into chronic instability and early arthritis. The injuries you prevent in your active years are the years you gain decades later — both directly (mobility and exercise capacity preserved) and indirectly (sustained ability to keep exercising, which is the biggest longevity lever of all per [§5](#5-foundations-the-biggest-levers)). For readers in their 40s: this matters even more, because recovery slows, tissue quality drops, and a serious knee or shoulder injury at 45 takes far longer to come back from than at 25.
 
-#### 8.1. Basketball
+#### 8.1. Intensive sports (basketball, soccer, tennis, ultimate, MMA, climbing, etc.)
 
-* **ACL prevention.** Programs like [PEP](https://smsmf.org/smsf-programs/pep-program), [FIFA 11+](https://www.yrsa.ca/page/FIFA11), and Sportsmetrics reduce ACL injuries by **~50%** in trial data. Core moves: Nordic hamstring curls (the single highest-evidence exercise — they reduce hamstring strains by ~50% on their own), single-leg squats, lateral bounding with controlled landing, and explicit landing mechanics drills (knees-out, hips-back, soft landing).
-* **Ankle.** The #1 basketball injury, and the one most underrated for long-term consequences. Reduce with: ankle dorsiflexion mobility work, single-leg balance drills (eyes closed, on a pillow), calf strength (heel raises 3 sets of 15+, weighted), and **prophylactic ankle bracing** during games if you have any sprain history — meta-analyses show ~50% reduction in recurrent sprains with no measurable loss of vertical jump.
+* **ACL prevention.** Programs like [PEP](https://smsmf.org/smsf-programs/pep-program), [FIFA 11+](https://www.yrsa.ca/page/FIFA11), and Sportsmetrics reduce ACL injuries by **~50%** in trial data, with most of the benefit applicable to any cutting/jumping sport. Core moves: Nordic hamstring curls (the single highest-evidence exercise — they reduce hamstring strains by ~50% on their own), single-leg squats, lateral bounding with controlled landing, and explicit landing mechanics drills (knees-out, hips-back, soft landing).
+* **Ankle.** The #1 injury across most field and court sports, and the one most underrated for long-term consequences. Reduce with: ankle dorsiflexion mobility work, single-leg balance drills (eyes closed, on a pillow), calf strength (heel raises 3 sets of 15+, weighted), and **prophylactic ankle bracing** during games if you have any sprain history — meta-analyses show ~50% reduction in recurrent sprains with no measurable loss of vertical jump or performance.
 * **Patellar tendinopathy ("jumper's knee").** Manage with eccentric quad work (slow-tempo Spanish squats, decline squats), volume management on consecutive jumping days, and not playing through pain that lingers beyond 24 hours.
+* **Warm up like you mean it.** A real 10-minute warm-up is one of the largest evidence-backed interventions for sports injury, and almost no recreational athlete actually does it. In your 40s especially, this is non-negotiable.
 
 #### 8.2. Lifting
 
@@ -286,9 +289,9 @@ Step intensity (cadence) didn't add much above raw count. **Target 8,000+ steps/
 
 #### 9.2. Sitting
 
-The WHO and large cohort data agree: sitting time and TV-watching time are independent risk factors. Each hour of daily sitting → **+3% ACM, +4% CVD, +1% cancer**. Risk thresholds: ~6–8 hours/day of sitting; ~3–4 hours/day of screen-sitting (TV/gaming).
+This one matters especially for programmers, because the job structurally pushes you over every threshold. The WHO and large cohort data agree: sitting time and TV-watching time are independent risk factors. Each hour of daily sitting → **+3% ACM, +4% CVD, +1% cancer**. Risk thresholds: ~6–8 hours/day of sitting; ~3–4 hours/day of screen-sitting (TV/gaming). A normal programming day plus a normal post-work decompression session blows through both.
 
-Breaking up sitting matters as much as total time. Every 30–60 minutes, stand for 2–3 minutes. If you work at a desk, a standing-desk option or just standing during phone calls helps.
+Breaking up sitting matters as much as total time. Every 30–60 minutes, stand for 2–3 minutes. Walking 1:1s, standing during code review, a sit-stand desk, and a daily walk between deep-work blocks all help. Treat your default posture during meetings as walking or standing, not seated.
 
 #### 9.3. Sun exposure
 
@@ -352,17 +355,22 @@ JAMA sub-journal twin/sibling analysis found higher net worth associated with lo
 
 Some things you can't change. But you can know your numbers:
 
-* **Get a baseline lipid panel** (total cholesterol, LDL, HDL, triglycerides, ideally ApoB and Lp(a)) by your mid-20s. Lp(a) is genetic, mostly unmodifiable, and a powerful independent risk factor that most people never measure.
-* **A1c** (3-month average blood sugar) — once in your 20s, every few years after.
-* **Blood pressure** — at every doctor visit. Hypertension is the most damaging undertreated condition in the US.
-* **Family history of CVD before 60 in a parent/sibling** is the single biggest "do not skip cardiology screening" flag. If it applies to you, know your numbers earlier and more aggressively.
+* **Get a baseline lipid panel** (total cholesterol, LDL, HDL, triglycerides, ideally ApoB and Lp(a)) — by your mid-20s if you haven't, and *immediately* if you're 35+ and haven't ever had one. Lp(a) is genetic, mostly unmodifiable, and a powerful independent risk factor that most people never measure.
+* **A1c** (3-month average blood sugar). At least once in your 20s; every 1–3 years after; annually if you're 40+ or have any metabolic risk factors.
+* **Blood pressure.** At every doctor visit. Hypertension is the most damaging undertreated condition in the US, and it accelerates in your 40s.
+* **Family history of CVD before 60 in a parent/sibling** is the single biggest "do not skip cardiology screening" flag. If it applies to you, know your numbers earlier and more aggressively — and consider asking about a coronary calcium score (CAC) by age 40.
+* **For readers in their 40s specifically:** a CAC scan is one of the highest-leverage tests in cardiology. It's cheap (~$100–$300 out of pocket in most US markets), low-radiation, and tells you whether atherosclerosis has actually begun. A score of 0 is genuinely reassuring; a non-zero score should change your statin/lifestyle conversation with a physician.
 
 #### 12.3. Where this leaves you
 
-The interventions in [§5](#5-foundations-the-biggest-levers) account for the overwhelming majority of modifiable mortality risk for someone in your demographic. Cardiorespiratory fitness, resistance training, sleep, not smoking, real food, and real relationships. Everything in sections 6–10 refines or reinforces those. The supplements section is where you spend money for small marginal gains.
+The interventions in [§5](#5-foundations-the-biggest-levers) account for the overwhelming majority of modifiable mortality risk across this entire age range. Cardiorespiratory fitness, resistance training, sleep, not smoking, real food, and real relationships. Everything in sections 6–10 refines or reinforces those. The supplements section is where you spend money for small marginal gains.
 
-If you're reading this guide in your 20s and you nail the foundations, the chronic-disease compounding you're avoiding is enormous. The atherosclerosis that kills 60-year-olds started in their 20s. The osteoarthritis that limits 50-year-olds started with the first untreated injury. The cognitive decline that catches up in the 70s tracks back to fitness and social connection in the decades before. **The best longevity intervention is starting early.**
+**If you're in your 20s** and you nail the foundations, the chronic-disease compounding you're avoiding is enormous. The atherosclerosis that kills 60-year-olds started in their 20s. The osteoarthritis that limits 50-year-olds started with the first untreated injury.
+
+**If you're in your 30s**, the foundations matter even more, because your habits are calcifying. The good news: the data on starting structured exercise, fixing sleep, and dropping smoking show meaningful mortality benefit even when picked up in this decade.
+
+**If you're in your 40s**, it's not too late — and it's also not too early to be precise. Get the labs. Know your CAC if you have any family history. Lift heavy enough to keep building muscle (sarcopenia begins meaningfully in your 30s and accelerates in the 40s). Sleep on a real schedule. The compounding window is shorter but the per-year benefit of the interventions in [§5](#5-foundations-the-biggest-levers) is actually *larger* than at younger ages, because your baseline risk is now non-zero. **The best longevity intervention is starting today, regardless of which decade you're in.**
 
 ---
 
-*Forked from [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger). Re-authored for a US, athletically-engaged audience. None of this is medical advice — see a doctor for anything specific to your health.*
+*Forked from [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger). Re-authored for US programmers and other knowledge workers across their 20s through late 40s, with an athletically-aware longevity lens. None of this is medical advice — see a doctor for anything specific to your health.*
